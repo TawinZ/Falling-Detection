@@ -1,97 +1,54 @@
-# step3_extract_keypoints.py
-
-import sys
-sys.path.append(".")
-
-import cv2
-import numpy as np
-import glob
 import os
+import zipfile
+import cv2
+import glob
 from tqdm import tqdm
-import time
-from ai.pose_estimator import PoseEstimator
 
-def extract_keypoints_from_video(video_path, estimator):
-    """Extract keypoints จากวิดีโอ 1 คลิป"""
-    cap = cv2.VideoCapture(video_path)
-    keypoints_list = []
+def unzip_file(zip_path, extract_to):
+    folder_name = os.path.basename(zip_path).replace('.zip', '')
+    extract_folder = os.path.join(extract_to, folder_name)
     
-    frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    if not os.path.exists(extract_folder):
+        with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+            zip_ref.extractall(extract_to)
     
-    with tqdm(total=frame_count, desc=f"  {os.path.basename(video_path)}", leave=False) as pbar:
-        while True:
-            ret, frame = cap.read()
-            if not ret:
-                break
-            
-            pose_data = estimator.analyze(frame)
-            
-            if pose_data and "keypoints" in pose_data:
-                # แปลง Keypoints เป็น Array (9 จุด x 2 = 18 ค่า)
-                kp_array = []
-                for name in ["nose", "left_shoulder", "right_shoulder",
-                           "left_hip", "right_hip", "left_knee", 
-                           "right_knee", "left_ankle", "right_ankle"]:
-                    x, y = pose_data["keypoints"][name]
-                    kp_array.extend([x, y])
-                
-                keypoints_list.append(kp_array)
-            
-            pbar.update(1)
+    return extract_folder
+
+def images_to_video(image_folder, output_video, fps=30):
+    images = sorted(glob.glob(f"{image_folder}/*.png"))
     
-    cap.release()
-    return np.array(keypoints_list)
-
-print("=" * 70)
-print("🦴 Step 3: Extract Keypoints จากวิดีโอ")
-print("=" * 70)
-
-# สร้าง Pose Estimator
-print("📦 กำลังโหลด MediaPipe Model...")
-estimator = PoseEstimator()
-print("✅ โหลด Model สำเร็จ")
-
-# หาวิดีโอทั้งหมด
-videos = sorted(glob.glob("dataset/videos/*.mp4"))
-print(f"📹 จำนวนวิดีโอ: {len(videos)} คลิป")
-print(f"⏱️  เวลาโดยประมาณ: 30-45 นาที")
-print("=" * 70)
-
-start_time = time.time()
-success = 0
-skipped = 0
-
-for video_path in videos:
-    filename = os.path.basename(video_path).replace('.mp4', '')
-    output_path = f"dataset/keypoints/{filename}.npy"
+    if not images:
+        return False
     
-    # ข้ามถ้ามีแล้ว
-    if os.path.exists(output_path):
-        print(f"✅ มีแล้ว: {filename}.npy")
-        skipped += 1
+    frame = cv2.imread(images[0])
+    if frame is None:
+        return False
+    
+    h, w, _ = frame.shape
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    video = cv2.VideoWriter(output_video, fourcc, fps, (w, h))
+    
+    for img_path in tqdm(images, desc=os.path.basename(output_video), leave=False):
+        frame = cv2.imread(img_path)
+        if frame is not None:
+            video.write(frame)
+    
+    video.release()
+    return True
+
+os.makedirs("dataset/videos", exist_ok=True)
+zip_files = sorted(glob.glob("dataset/raw/*.zip"))
+
+print(f"Converting {len(zip_files)} videos...")
+
+for zip_path in zip_files:
+    filename = os.path.basename(zip_path).replace('.zip', '')
+    output_video = f"dataset/videos/{filename}.mp4"
+    
+    if os.path.exists(output_video):
         continue
     
-    print(f"\n🎬 Processing: {filename}.mp4")
-    
-    # Extract
-    try:
-        keypoints = extract_keypoints_from_video(video_path, estimator)
-        
-        # บันทึก
-        np.save(output_path, keypoints)
-        print(f"✅ บันทึกแล้ว: {filename}.npy (shape: {keypoints.shape})")
-        success += 1
-    except Exception as e:
-        print(f"❌ Error: {e}")
+    extract_folder = unzip_file(zip_path, "dataset/raw/")
+    images_to_video(extract_folder, output_video)
 
-elapsed = time.time() - start_time
-minutes = int(elapsed / 60)
-seconds = int(elapsed % 60)
-
-print("\n" + "=" * 70)
-print(f"✅ Extract สำเร็จ: {success} ไฟล์")
-print(f"⏭️  ข้าม: {skipped} ไฟล์ (มีอยู่แล้ว)")
-print(f"⏱️  เวลาที่ใช้: {minutes} นาที {seconds} วินาที")
-print(f"📂 Keypoints อยู่ที่: dataset/keypoints/")
-print("=" * 70)
-print("\n🎯 ขั้นตอนถัดไป: python3 step4_prepare_data.py")
+print("Conversion complete.")
