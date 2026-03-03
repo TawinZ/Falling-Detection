@@ -1,0 +1,16 @@
+venv/
+env/
+dataset/
+models/
+*.zip
+*.mp4
+*.npy
+*.h5
+*.keras
+*.task
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
+logs/
+images/
