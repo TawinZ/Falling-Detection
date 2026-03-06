@@ -1,5 +1,3 @@
-# ai/pose_estimator.py
-
 import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
@@ -12,9 +10,9 @@ import os
 class PoseEstimator:
 
     def __init__(self):
-        model_path = "pose_landmarker_lite.task"
+        model_path = "pose_landmarker_full.task"
         if not os.path.exists(model_path):
-            print("❌ ไม่พบ Model กรุณาดาวน์โหลดมาวางที่ Root โปรเจคก่อน")
+            print("Error: pose_landmarker_full.task not found")
             exit()
 
         base_options = python.BaseOptions(model_asset_path=model_path)
@@ -22,27 +20,38 @@ class PoseEstimator:
             base_options=base_options,
             running_mode=VisionTaskRunningMode.IMAGE,
             num_poses=1,
-            min_pose_detection_confidence=0.6,
-            min_pose_presence_confidence=0.6,
-            min_tracking_confidence=0.6
+            min_pose_detection_confidence=0.7,
+            min_pose_presence_confidence=0.7,
+            min_tracking_confidence=0.7
         )
         self.landmarker = PoseLandmarker.create_from_options(options)
-        
-        # Buffer สำหรับ Smoothing (เพิ่มจาก 3 เป็น 5)
+
         self.pose_buffer = []
-        self.buffer_size = 5  # เปลี่ยนจาก 3 เป็น 5
-        # เพิ่ม Buffer สำหรับ Pose ด้วย
-        self.last_poses = []
-        self.pose_count = 5
+        self.buffer_size = 5
+        self.last_poses  = []
+        self.pose_count  = 5
+
+    def is_valid_human(self, keypoints):
+        """ตรวจสอบว่า keypoints เรียงตามกายวิภาคมนุษย์จริงไหม"""
+        nose_y     = keypoints["nose"][1]
+        shoulder_y = (keypoints["left_shoulder"][1] + keypoints["right_shoulder"][1]) / 2
+        hip_y      = (keypoints["left_hip"][1] + keypoints["right_hip"][1]) / 2
+        knee_y     = (keypoints["left_knee"][1] + keypoints["right_knee"][1]) / 2
+        ankle_y    = (keypoints["left_ankle"][1] + keypoints["right_ankle"][1]) / 2
+
+        # ในภาพ y น้อย = อยู่บน, y มาก = อยู่ล่าง
+        # ลำดับที่ถูกต้อง: nose < shoulder < hip < knee < ankle
+        if nose_y >= shoulder_y:   return False
+        if shoulder_y >= hip_y:    return False
+        if hip_y >= knee_y:        return False
+        if knee_y >= ankle_y:      return False
+
+        return True
 
     def analyze(self, frame):
-        rgb_frame  = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        mp_image   = mp.Image(
-            image_format=mp.ImageFormat.SRGB,
-            data=rgb_frame
-        )
-
-        results = self.landmarker.detect(mp_image)
+        rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        mp_image  = mp.Image(image_format=mp.ImageFormat.SRGB, data=rgb_frame)
+        results   = self.landmarker.detect(mp_image)
 
         if not results.pose_landmarks:
             return None
@@ -61,6 +70,10 @@ class PoseEstimator:
             "right_ankle":    (landmarks[28].x, landmarks[28].y),
         }
 
+        # ถ้า keypoints ไม่ตรงกายวิภาคมนุษย์ → ถือเป็นวัตถุ skip
+        if not self.is_valid_human(keypoints):
+            return None
+
         pose_type = self.classify_pose(keypoints)
 
         return {
@@ -70,47 +83,41 @@ class PoseEstimator:
         }
 
     def classify_pose(self, keypoints):
-        nose_y       = keypoints["nose"][1]
-        left_hip_y   = keypoints["left_hip"][1]
-        right_hip_y  = keypoints["right_hip"][1]
-        left_ankle_y = keypoints["left_ankle"][1]
-        right_ankle_y= keypoints["right_ankle"][1]
-        
-        hip_y    = (left_hip_y + right_hip_y) / 2
-        ankle_y  = (left_ankle_y + right_ankle_y) / 2
-        
+        nose_y        = keypoints["nose"][1]
+        left_hip_y    = keypoints["left_hip"][1]
+        right_hip_y   = keypoints["right_hip"][1]
+        left_ankle_y  = keypoints["left_ankle"][1]
+        right_ankle_y = keypoints["right_ankle"][1]
+
+        hip_y   = (left_hip_y + right_hip_y) / 2
+        ankle_y = (left_ankle_y + right_ankle_y) / 2
+
         body_angle = self.calc_body_angle(keypoints)
-        
-        # เพิ่มเข้า Buffer
+
         self.pose_buffer.append(body_angle)
         if len(self.pose_buffer) > self.buffer_size:
             self.pose_buffer.pop(0)
-        
-        smooth_angle = sum(self.pose_buffer) / len(self.pose_buffer)
+
         head_height = nose_y
-        
-        # คำนวณ Pose
+
         if head_height > 0.5:
             current_pose = "lying"
         elif head_height < 0.3 and (ankle_y - hip_y) > 0.2:
             current_pose = "standing"
         else:
             current_pose = "sitting"
-        
-        # Smoothing Pose ด้วย Voting
+
         self.last_poses.append(current_pose)
         if len(self.last_poses) > self.pose_count:
             self.last_poses.pop(0)
-        
-        # นับ Pose ที่เกิดบ่อยที่สุด
+
         pose_votes = {
             "standing": self.last_poses.count("standing"),
             "sitting":  self.last_poses.count("sitting"),
             "lying":    self.last_poses.count("lying")
         }
-        
-        final_pose = max(pose_votes, key=pose_votes.get)
-        return final_pose
+
+        return max(pose_votes, key=pose_votes.get)
 
     def calc_body_angle(self, keypoints):
         ls = keypoints["left_shoulder"]
@@ -123,52 +130,40 @@ class PoseEstimator:
 
         delta_x = shoulder_mid[0] - hip_mid[0]
         delta_y = shoulder_mid[1] - hip_mid[1]
-        angle   = abs(np.degrees(np.arctan2(delta_x, delta_y)))
 
-        return angle
+        return abs(np.degrees(np.arctan2(delta_x, delta_y)))
 
     def draw_skeleton(self, frame, pose_data):
         if pose_data is None:
             return frame
 
-        if "keypoints" in pose_data:
-            h, w = frame.shape[:2]
-            
-            # วาดจุด
-            for name, (x, y) in pose_data["keypoints"].items():
-                cx = int(x * w)
-                cy = int(y * h)
-                cv2.circle(frame, (cx, cy), 5, (0, 255, 255), -1)
-            
-            # วาดเส้นเชื่อม
-            kp = pose_data["keypoints"]
-            
-            def draw_line(p1_name, p2_name, color=(0, 255, 0)):
-                if p1_name in kp and p2_name in kp:
-                    p1 = (int(kp[p1_name][0] * w), int(kp[p1_name][1] * h))
-                    p2 = (int(kp[p2_name][0] * w), int(kp[p2_name][1] * h))
-                    cv2.line(frame, p1, p2, color, 2)
-            
-            # ลำตัว (สีเขียว)
-            draw_line("left_shoulder", "right_shoulder", (0, 255, 0))
-            draw_line("left_shoulder", "left_hip", (0, 255, 0))
-            draw_line("right_shoulder", "right_hip", (0, 255, 0))
-            draw_line("left_hip", "right_hip", (0, 255, 0))
-            
-            # แขนซ้าย (สีฟ้า)
-            draw_line("left_shoulder", "left_hip", (255, 200, 0))
-            draw_line("nose", "left_shoulder", (255, 200, 0))
-            
-            # แขนขวา (สีฟ้า)
-            draw_line("right_shoulder", "right_hip", (255, 200, 0))
-            draw_line("nose", "right_shoulder", (255, 200, 0))
-            
-            # ขาซ้าย (สีม่วง)
-            draw_line("left_hip", "left_knee", (255, 0, 255))
-            draw_line("left_knee", "left_ankle", (255, 0, 255))
-            
-            # ขาขวา (สีม่วง)
-            draw_line("right_hip", "right_knee", (255, 0, 255))
-            draw_line("right_knee", "right_ankle", (255, 0, 255))
+        if "keypoints" not in pose_data:
+            return frame
+
+        h, w = frame.shape[:2]
+        kp   = pose_data["keypoints"]
+
+        for name, (x, y) in kp.items():
+            cv2.circle(frame, (int(x*w), int(y*h)), 5, (0, 255, 255), -1)
+
+        def line(a, b, color):
+            if a in kp and b in kp:
+                p1 = (int(kp[a][0]*w), int(kp[a][1]*h))
+                p2 = (int(kp[b][0]*w), int(kp[b][1]*h))
+                cv2.line(frame, p1, p2, color, 2)
+
+        # Torso
+        line("left_shoulder",  "right_shoulder", (0, 255, 0))
+        line("left_shoulder",  "left_hip",        (0, 255, 0))
+        line("right_shoulder", "right_hip",       (0, 255, 0))
+        line("left_hip",       "right_hip",       (0, 255, 0))
+        # Head
+        line("nose", "left_shoulder",  (255, 200, 0))
+        line("nose", "right_shoulder", (255, 200, 0))
+        # Legs
+        line("left_hip",   "left_knee",   (255, 0, 255))
+        line("left_knee",  "left_ankle",  (255, 0, 255))
+        line("right_hip",  "right_knee",  (255, 0, 255))
+        line("right_knee", "right_ankle", (255, 0, 255))
 
         return frame

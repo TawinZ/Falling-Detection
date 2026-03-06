@@ -26,8 +26,9 @@ def download(url, output):
 
 base_url = "http://fenix.ur.edu.pl/~mkepski/ds/data/"
 
-fall_files = [f"fall-{i:02d}-cam0-rgb.zip" for i in range(1, 16)]
-adl_files = [f"adl-{i:02d}-cam0-rgb.zip" for i in range(1, 16)]
+# ดาวน์โหลด 100 videos
+fall_files = [f"fall-{i:02d}-cam0-rgb.zip" for i in range(1, 31)]  # 30 Fall (ทั้งหมด)
+adl_files = [f"adl-{i:02d}-cam0-rgb.zip" for i in range(1, 71)]    # 70 Normal
 files = fall_files + adl_files
 
 os.makedirs("dataset/raw", exist_ok=True)
