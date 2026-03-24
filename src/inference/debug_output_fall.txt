@@ -1,0 +1,1308 @@
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Loading models...
+✅ Models loaded!
+======================================================================
+🐛 DEBUG MODE - Fall Detection
+======================================================================
+📹 Video: test_fall.MOV
+📊 Confidence Threshold: 0.9
+📊 Smoothing Window: 5
+======================================================================
+
+
+======================================================================
+Frame 1/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.63
+  → Pose: Standing
+
+⏳ Buffering sequences: 0/20
+
+======================================================================
+Frame 2/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.64
+  Ankle movement: 0.0032
+  → Pose: Standing
+  Velocity: vx=-0.0017, vy=-0.0031, hip_vy=-0.0056
+
+⏳ Buffering sequences: 1/20
+
+======================================================================
+Frame 3/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.65
+  Ankle movement: 0.0038
+  → Pose: Standing
+  Velocity: vx=-0.0015, vy=-0.0005, hip_vy=-0.0002
+
+⏳ Buffering sequences: 2/20
+
+======================================================================
+Frame 4/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.72
+  Ankle movement: 0.0113
+  → Pose: Standing
+  Velocity: vx=-0.0070, vy=0.0065, hip_vy=0.0017
+
+⏳ Buffering sequences: 3/20
+
+======================================================================
+Frame 5/87
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.90
+    #1: class=0, conf=0.50
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.68
+  Ankle movement: 0.0071
+  → Pose: Standing
+  Velocity: vx=-0.0045, vy=0.0008, hip_vy=0.0021
+
+⏳ Buffering sequences: 4/20
+
+======================================================================
+Frame 6/87
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.90
+    #1: class=0, conf=0.50
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.66
+  Ankle movement: 0.0020
+  → Pose: Standing
+  Velocity: vx=-0.0035, vy=0.0027, hip_vy=0.0057
+
+⏳ Buffering sequences: 5/20
+
+======================================================================
+Frame 7/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.68
+  Ankle movement: 0.0041
+  → Pose: Standing
+  Velocity: vx=-0.0036, vy=0.0012, hip_vy=-0.0018
+
+⏳ Buffering sequences: 6/20
+
+======================================================================
+Frame 8/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.67
+  Ankle movement: 0.0012
+  → Pose: Standing
+  Velocity: vx=-0.0024, vy=0.0040, hip_vy=0.0065
+
+⏳ Buffering sequences: 7/20
+
+======================================================================
+Frame 9/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.64
+  Ankle movement: 0.0024
+  → Pose: Standing
+  Velocity: vx=-0.0042, vy=0.0034, hip_vy=0.0072
+
+⏳ Buffering sequences: 8/20
+
+======================================================================
+Frame 10/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.61
+  Ankle movement: 0.0021
+  → Pose: Standing
+  Velocity: vx=-0.0032, vy=0.0029, hip_vy=0.0062
+
+⏳ Buffering sequences: 9/20
+
+======================================================================
+Frame 11/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.88
+  ✅ Using detection #0 (conf=0.88)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.59
+  Ankle movement: 0.0053
+  → Pose: Sitting
+  Velocity: vx=-0.0028, vy=0.0072, hip_vy=0.0093
+
+⏳ Buffering sequences: 10/20
+
+======================================================================
+Frame 12/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.87
+  ✅ Using detection #0 (conf=0.87)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.61
+  Ankle movement: 0.0064
+  → Pose: Standing
+  Velocity: vx=-0.0017, vy=0.0065, hip_vy=0.0028
+
+⏳ Buffering sequences: 11/20
+
+======================================================================
+Frame 13/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.87
+  ✅ Using detection #0 (conf=0.87)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.62
+  Ankle movement: 0.0025
+  → Pose: Standing
+  Velocity: vx=-0.0010, vy=-0.0007, hip_vy=-0.0024
+
+⏳ Buffering sequences: 12/20
+
+======================================================================
+Frame 14/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.88
+  ✅ Using detection #0 (conf=0.88)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.64
+  Ankle movement: 0.0072
+  → Pose: Standing
+  Velocity: vx=-0.0007, vy=-0.0038, hip_vy=-0.0052
+
+⏳ Buffering sequences: 13/20
+
+======================================================================
+Frame 15/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.88
+  ✅ Using detection #0 (conf=0.88)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.64
+  Ankle movement: 0.0085
+  → Pose: Standing
+  Velocity: vx=-0.0011, vy=-0.0006, hip_vy=0.0016
+
+⏳ Buffering sequences: 14/20
+
+======================================================================
+Frame 16/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.66
+  Ankle movement: 0.0056
+  → Pose: Standing
+  Velocity: vx=-0.0006, vy=0.0010, hip_vy=0.0005
+
+⏳ Buffering sequences: 15/20
+
+======================================================================
+Frame 17/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.64
+  Ankle movement: 0.0063
+  → Pose: Standing
+  Velocity: vx=-0.0012, vy=0.0068, hip_vy=0.0098
+
+⏳ Buffering sequences: 16/20
+
+======================================================================
+Frame 18/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.78
+  ✅ Using detection #0 (conf=0.78)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.87, leg/body=0.64
+  Ankle movement: 0.0165
+  → Pose: Standing
+  Velocity: vx=-0.0034, vy=-0.0039, hip_vy=-0.0029
+
+⏳ Buffering sequences: 17/20
+
+======================================================================
+Frame 19/87
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.84
+    #1: class=0, conf=0.50
+  ✅ Using detection #0 (conf=0.84)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.85, leg/body=0.70
+  Ankle movement: 0.0084
+  → Pose: Standing
+  Velocity: vx=0.0026, vy=0.0069, hip_vy=-0.0002
+
+⏳ Buffering sequences: 18/20
+
+======================================================================
+Frame 20/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.86
+  ✅ Using detection #0 (conf=0.86)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.81, leg/body=0.81
+  Ankle movement: 0.0178
+  → Pose: Standing
+  Velocity: vx=0.0011, vy=0.0105, hip_vy=-0.0049
+
+⏳ Buffering sequences: 19/20
+
+======================================================================
+Frame 21/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.76, leg/body=0.81
+  Ankle movement: 0.0113
+  → Pose: Standing
+  Velocity: vx=0.0029, vy=0.0238, hip_vy=0.0309
+  LSTM Prediction: Not Fall=0.518, Fall=0.482
+  Pose Filter Applied: 0.482 → 0.000
+  Smoothing buffer: 1/5
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 22/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.71, leg/body=0.83
+  Ankle movement: 0.0090
+  → Pose: Standing
+  Velocity: vx=0.0076, vy=0.0228, hip_vy=0.0258
+  LSTM Prediction: Not Fall=0.475, Fall=0.525
+  Pose Filter Applied: 0.525 → 0.000
+  Smoothing buffer: 2/5
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 23/87
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.90
+    #1: class=0, conf=0.51
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.51, leg/body=1.28
+  → Pose: Lying
+  Velocity: vx=0.0199, vy=0.0053, hip_vy=-0.0160
+  LSTM Prediction: Not Fall=0.430, Fall=0.570
+  Smoothing buffer: 3/5
+
+🎯 RESULT: 🟢 Normal (conf=0.570)
+
+======================================================================
+Frame 24/87
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.86
+    #1: class=0, conf=0.52
+  ✅ Using detection #0 (conf=0.86)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.22, leg/body=2.84
+  → Pose: Lying
+  Velocity: vx=0.0029, vy=0.0267, hip_vy=0.0098
+  LSTM Prediction: Not Fall=0.355, Fall=0.645
+  Smoothing buffer: 4/5
+
+🎯 RESULT: 🟢 Normal (conf=0.645)
+
+======================================================================
+Frame 25/87
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.88
+    #1: class=0, conf=0.53
+  ✅ Using detection #0 (conf=0.88)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.16, leg/body=5.06
+  → Pose: Lying
+  Velocity: vx=0.0059, vy=0.0377, hip_vy=0.0070
+  LSTM Prediction: Not Fall=0.266, Fall=0.734
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.734)
+
+======================================================================
+Frame 26/87
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.89
+    #1: class=0, conf=0.52
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.20, leg/body=2.97
+  → Pose: Lying
+  Velocity: vx=0.0170, vy=0.0436, hip_vy=0.0612
+  LSTM Prediction: Not Fall=0.125, Fall=0.875
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.875)
+
+======================================================================
+Frame 27/87
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.84
+    #1: class=0, conf=0.51
+  ✅ Using detection #0 (conf=0.84)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.11, leg/body=4.93
+  → Pose: Lying
+  Velocity: vx=0.0281, vy=0.0350, hip_vy=0.0652
+  LSTM Prediction: Not Fall=0.042, Fall=0.958
+  Smoothing: 1/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.958)
+
+======================================================================
+Frame 28/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.82
+  ✅ Using detection #0 (conf=0.82)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.16, leg/body=4.05
+  → Pose: Lying
+  Velocity: vx=0.0139, vy=0.0208, hip_vy=0.0145
+  LSTM Prediction: Not Fall=0.014, Fall=0.986
+  Smoothing: 2/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.986)
+
+======================================================================
+Frame 29/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.72
+  ✅ Using detection #0 (conf=0.72)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.10, leg/body=4.13
+  → Pose: Lying
+  Velocity: vx=0.0189, vy=0.0240, hip_vy=0.0425
+  LSTM Prediction: Not Fall=0.014, Fall=0.986
+  Smoothing: 3/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.986)
+
+======================================================================
+Frame 30/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.80
+  ✅ Using detection #0 (conf=0.80)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.02, leg/body=15.50
+  → Pose: Lying
+  Velocity: vx=-0.0696, vy=-0.0733, hip_vy=0.0289
+  LSTM Prediction: Not Fall=0.004, Fall=0.996
+  Smoothing: 4/5 (need 4) → FALL
+
+🎯 RESULT: 🔴 FALL DETECTED (conf=0.996)
+
+======================================================================
+Frame 31/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.75
+  ✅ Using detection #0 (conf=0.75)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.06, leg/body=4.33
+  → Pose: Lying
+  Velocity: vx=0.0826, vy=0.1005, hip_vy=0.0177
+  LSTM Prediction: Not Fall=0.002, Fall=0.998
+  Smoothing: 5/5 (need 4) → FALL
+
+🎯 RESULT: 🔴 FALL DETECTED (conf=0.998)
+
+======================================================================
+Frame 32/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.75
+  ✅ Using detection #0 (conf=0.75)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.24, leg/body=0.93
+  → Pose: Lying
+  Velocity: vx=0.0068, vy=0.0085, hip_vy=-0.0062
+  LSTM Prediction: Not Fall=0.001, Fall=0.999
+  Smoothing: 5/5 (need 4) → FALL
+
+🎯 RESULT: 🔴 FALL DETECTED (conf=0.999)
+
+======================================================================
+Frame 33/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.72
+  ✅ Using detection #0 (conf=0.72)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.22, leg/body=0.93
+  → Pose: Lying
+  Velocity: vx=0.0051, vy=-0.0058, hip_vy=-0.0001
+  LSTM Prediction: Not Fall=0.001, Fall=0.999
+  Smoothing: 5/5 (need 4) → FALL
+
+🎯 RESULT: 🔴 FALL DETECTED (conf=0.999)
+
+======================================================================
+Frame 34/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.72
+  ✅ Using detection #0 (conf=0.72)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.17, leg/body=1.70
+  → Pose: Lying
+  Velocity: vx=-0.0011, vy=0.0079, hip_vy=0.0092
+  LSTM Prediction: Not Fall=0.001, Fall=0.999
+  Smoothing: 5/5 (need 4) → FALL
+
+🎯 RESULT: 🔴 FALL DETECTED (conf=0.999)
+
+======================================================================
+Frame 35/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.72
+  ✅ Using detection #0 (conf=0.72)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.16, leg/body=1.95
+  → Pose: Lying
+  Velocity: vx=0.0019, vy=0.0036, hip_vy=0.0037
+  LSTM Prediction: Not Fall=0.007, Fall=0.993
+  Smoothing: 5/5 (need 4) → FALL
+
+🎯 RESULT: 🔴 FALL DETECTED (conf=0.993)
+
+======================================================================
+Frame 36/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.70
+  ✅ Using detection #0 (conf=0.70)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.17, leg/body=1.49
+  → Pose: Lying
+  Velocity: vx=-0.0039, vy=-0.0055, hip_vy=-0.0050
+  LSTM Prediction: Not Fall=0.025, Fall=0.975
+  Smoothing: 5/5 (need 4) → FALL
+
+🎯 RESULT: 🔴 FALL DETECTED (conf=0.975)
+
+======================================================================
+Frame 37/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.74
+  ✅ Using detection #0 (conf=0.74)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.15, leg/body=1.59
+  → Pose: Lying
+  Velocity: vx=0.0006, vy=0.0025, hip_vy=-0.0010
+  LSTM Prediction: Not Fall=0.038, Fall=0.962
+  Smoothing: 5/5 (need 4) → FALL
+
+🎯 RESULT: 🔴 FALL DETECTED (conf=0.962)
+
+======================================================================
+Frame 38/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.76
+  ✅ Using detection #0 (conf=0.76)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.16, leg/body=1.42
+  → Pose: Lying
+  Velocity: vx=0.0002, vy=-0.0011, hip_vy=-0.0015
+  LSTM Prediction: Not Fall=0.075, Fall=0.925
+  Smoothing: 5/5 (need 4) → FALL
+
+🎯 RESULT: 🔴 FALL DETECTED (conf=0.925)
+
+======================================================================
+Frame 39/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.78
+  ✅ Using detection #0 (conf=0.78)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.15, leg/body=1.18
+  → Pose: Lying
+  Velocity: vx=-0.0013, vy=-0.0004, hip_vy=0.0053
+  LSTM Prediction: Not Fall=0.149, Fall=0.851
+  Smoothing: 4/5 (need 4) → FALL
+
+🎯 RESULT: 🔴 FALL DETECTED (conf=0.851)
+
+======================================================================
+Frame 40/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.77
+  ✅ Using detection #0 (conf=0.77)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.13, leg/body=1.15
+  → Pose: Lying
+  Velocity: vx=0.0002, vy=0.0017, hip_vy=0.0048
+  LSTM Prediction: Not Fall=0.191, Fall=0.809
+  Smoothing: 3/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.809)
+
+======================================================================
+Frame 41/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.76
+  ✅ Using detection #0 (conf=0.76)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.14, leg/body=1.11
+  → Pose: Lying
+  Velocity: vx=0.0022, vy=-0.0002, hip_vy=-0.0008
+  LSTM Prediction: Not Fall=0.222, Fall=0.778
+  Smoothing: 2/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.778)
+
+======================================================================
+Frame 42/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.77
+  ✅ Using detection #0 (conf=0.77)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.13, leg/body=0.88
+  → Pose: Lying
+  Velocity: vx=-0.0004, vy=-0.0007, hip_vy=0.0012
+  LSTM Prediction: Not Fall=0.280, Fall=0.720
+  Smoothing: 1/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.720)
+
+======================================================================
+Frame 43/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.76
+  ✅ Using detection #0 (conf=0.76)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.15, leg/body=0.92
+  → Pose: Lying
+  Velocity: vx=-0.0005, vy=0.0013, hip_vy=-0.0014
+  LSTM Prediction: Not Fall=0.308, Fall=0.692
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.692)
+
+======================================================================
+Frame 44/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.73
+  ✅ Using detection #0 (conf=0.73)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.18, leg/body=1.31
+  → Pose: Lying
+  Velocity: vx=-0.0000, vy=-0.0037, hip_vy=-0.0054
+  LSTM Prediction: Not Fall=0.382, Fall=0.618
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.618)
+
+======================================================================
+Frame 45/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.72
+  ✅ Using detection #0 (conf=0.72)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.16, leg/body=1.48
+  → Pose: Lying
+  Velocity: vx=0.0009, vy=-0.0009, hip_vy=0.0011
+  LSTM Prediction: Not Fall=0.445, Fall=0.555
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.555)
+
+======================================================================
+Frame 46/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.73
+  ✅ Using detection #0 (conf=0.73)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.15, leg/body=1.56
+  → Pose: Lying
+  Velocity: vx=-0.0014, vy=-0.0007, hip_vy=-0.0006
+  LSTM Prediction: Not Fall=0.503, Fall=0.497
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.497)
+
+======================================================================
+Frame 47/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.73
+  ✅ Using detection #0 (conf=0.73)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.16, leg/body=1.63
+  → Pose: Lying
+  Velocity: vx=0.0004, vy=0.0025, hip_vy=0.0013
+  LSTM Prediction: Not Fall=0.503, Fall=0.497
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.497)
+
+======================================================================
+Frame 48/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.75
+  ✅ Using detection #0 (conf=0.75)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.15, leg/body=1.77
+  → Pose: Lying
+  Velocity: vx=0.0016, vy=-0.0003, hip_vy=-0.0012
+  LSTM Prediction: Not Fall=0.491, Fall=0.509
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.509)
+
+======================================================================
+Frame 49/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.75
+  ✅ Using detection #0 (conf=0.75)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.13, leg/body=1.34
+  → Pose: Lying
+  Velocity: vx=-0.0023, vy=0.0043, hip_vy=0.0061
+  LSTM Prediction: Not Fall=0.496, Fall=0.504
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.504)
+
+======================================================================
+Frame 50/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.78
+  ✅ Using detection #0 (conf=0.78)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.11, leg/body=2.07
+  → Pose: Lying
+  Velocity: vx=0.0014, vy=-0.0004, hip_vy=-0.0017
+  LSTM Prediction: Not Fall=0.547, Fall=0.453
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.453)
+
+======================================================================
+Frame 51/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.78
+  ✅ Using detection #0 (conf=0.78)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.12, leg/body=1.57
+  → Pose: Lying
+  Velocity: vx=-0.0005, vy=0.0029, hip_vy=0.0037
+  LSTM Prediction: Not Fall=0.553, Fall=0.447
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.447)
+
+======================================================================
+Frame 52/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.79
+  ✅ Using detection #0 (conf=0.79)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.16, leg/body=1.29
+  → Pose: Lying
+  Velocity: vx=-0.0008, vy=-0.0019, hip_vy=-0.0033
+  LSTM Prediction: Not Fall=0.540, Fall=0.460
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.460)
+
+======================================================================
+Frame 53/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.79
+  ✅ Using detection #0 (conf=0.79)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.12, leg/body=2.47
+  → Pose: Lying
+  Velocity: vx=0.0120, vy=-0.0025, hip_vy=0.0003
+  LSTM Prediction: Not Fall=0.537, Fall=0.463
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.463)
+
+======================================================================
+Frame 54/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.82
+  ✅ Using detection #0 (conf=0.82)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.15, leg/body=2.12
+  → Pose: Lying
+  Velocity: vx=0.0002, vy=-0.0003, hip_vy=-0.0031
+  LSTM Prediction: Not Fall=0.539, Fall=0.461
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.461)
+
+======================================================================
+Frame 55/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.83
+  ✅ Using detection #0 (conf=0.83)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.18, leg/body=1.49
+  → Pose: Lying
+  Velocity: vx=0.0011, vy=0.0024, hip_vy=0.0027
+  LSTM Prediction: Not Fall=0.541, Fall=0.459
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.459)
+
+======================================================================
+Frame 56/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.83
+  ✅ Using detection #0 (conf=0.83)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.22, leg/body=0.97
+  → Pose: Lying
+  Velocity: vx=-0.0014, vy=-0.0022, hip_vy=-0.0016
+  LSTM Prediction: Not Fall=0.537, Fall=0.463
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.463)
+
+======================================================================
+Frame 57/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.82
+  ✅ Using detection #0 (conf=0.82)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.25, leg/body=0.83
+  → Pose: Lying
+  Velocity: vx=0.0010, vy=0.0021, hip_vy=-0.0014
+  LSTM Prediction: Not Fall=0.537, Fall=0.463
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.463)
+
+======================================================================
+Frame 58/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.83
+  ✅ Using detection #0 (conf=0.83)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.28, leg/body=0.79
+  → Pose: Lying
+  Velocity: vx=0.0013, vy=0.0041, hip_vy=0.0032
+  LSTM Prediction: Not Fall=0.545, Fall=0.455
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.455)
+
+======================================================================
+Frame 59/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.83
+  ✅ Using detection #0 (conf=0.83)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.31, leg/body=0.60
+  → Pose: Lying
+  Velocity: vx=0.0015, vy=-0.0020, hip_vy=-0.0019
+  LSTM Prediction: Not Fall=0.562, Fall=0.438
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.438)
+
+======================================================================
+Frame 60/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.81
+  ✅ Using detection #0 (conf=0.81)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.31, leg/body=0.55
+  → Pose: Lying
+  Velocity: vx=-0.0008, vy=0.0025, hip_vy=0.0030
+  LSTM Prediction: Not Fall=0.573, Fall=0.427
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.427)
+
+======================================================================
+Frame 61/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.79
+  ✅ Using detection #0 (conf=0.79)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.32, leg/body=0.53
+  → Pose: Lying
+  Velocity: vx=0.0010, vy=-0.0003, hip_vy=-0.0022
+  LSTM Prediction: Not Fall=0.577, Fall=0.423
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.423)
+
+======================================================================
+Frame 62/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.79
+  ✅ Using detection #0 (conf=0.79)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.32, leg/body=0.49
+  → Pose: Lying
+  Velocity: vx=-0.0015, vy=-0.0016, hip_vy=-0.0002
+  LSTM Prediction: Not Fall=0.580, Fall=0.420
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.420)
+
+======================================================================
+Frame 63/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.78
+  ✅ Using detection #0 (conf=0.78)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.26, leg/body=0.67
+  → Pose: Lying
+  Velocity: vx=-0.0092, vy=0.0004, hip_vy=0.0043
+  LSTM Prediction: Not Fall=0.583, Fall=0.417
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.417)
+
+======================================================================
+Frame 64/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.78
+  ✅ Using detection #0 (conf=0.78)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.27, leg/body=0.70
+  → Pose: Lying
+  Velocity: vx=-0.0005, vy=0.0010, hip_vy=0.0001
+  LSTM Prediction: Not Fall=0.587, Fall=0.413
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.413)
+
+======================================================================
+Frame 65/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.78
+  ✅ Using detection #0 (conf=0.78)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.27, leg/body=0.73
+  → Pose: Lying
+  Velocity: vx=-0.0002, vy=0.0007, hip_vy=-0.0006
+  LSTM Prediction: Not Fall=0.583, Fall=0.417
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.417)
+
+======================================================================
+Frame 66/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.79
+  ✅ Using detection #0 (conf=0.79)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.29, leg/body=0.58
+  → Pose: Lying
+  Velocity: vx=0.0077, vy=-0.0012, hip_vy=-0.0024
+  LSTM Prediction: Not Fall=0.580, Fall=0.420
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.420)
+
+======================================================================
+Frame 67/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.80
+  ✅ Using detection #0 (conf=0.80)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.30, leg/body=0.66
+  → Pose: Lying
+  Velocity: vx=-0.0002, vy=0.0008, hip_vy=-0.0020
+  LSTM Prediction: Not Fall=0.585, Fall=0.415
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.415)
+
+======================================================================
+Frame 68/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.80
+  ✅ Using detection #0 (conf=0.80)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.30, leg/body=0.59
+  → Pose: Lying
+  Velocity: vx=-0.0009, vy=-0.0009, hip_vy=0.0012
+  LSTM Prediction: Not Fall=0.588, Fall=0.412
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.412)
+
+======================================================================
+Frame 69/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.80
+  ✅ Using detection #0 (conf=0.80)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.26, leg/body=0.73
+  → Pose: Lying
+  Velocity: vx=-0.0086, vy=0.0011, hip_vy=0.0035
+  LSTM Prediction: Not Fall=0.586, Fall=0.414
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.414)
+
+======================================================================
+Frame 70/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.81
+  ✅ Using detection #0 (conf=0.81)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.27, leg/body=0.74
+  → Pose: Lying
+  Velocity: vx=0.0004, vy=0.0000, hip_vy=-0.0011
+  LSTM Prediction: Not Fall=0.573, Fall=0.427
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.427)
+
+======================================================================
+Frame 71/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.81
+  ✅ Using detection #0 (conf=0.81)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.27, leg/body=0.74
+  → Pose: Lying
+  Velocity: vx=-0.0003, vy=0.0009, hip_vy=0.0003
+  LSTM Prediction: Not Fall=0.563, Fall=0.437
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.437)
+
+======================================================================
+Frame 72/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.81
+  ✅ Using detection #0 (conf=0.81)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.27, leg/body=0.78
+  → Pose: Lying
+  Velocity: vx=-0.0002, vy=0.0010, hip_vy=0.0002
+  LSTM Prediction: Not Fall=0.563, Fall=0.437
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.437)
+
+======================================================================
+Frame 73/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.81
+  ✅ Using detection #0 (conf=0.81)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.26, leg/body=0.77
+  → Pose: Lying
+  Velocity: vx=0.0004, vy=-0.0005, hip_vy=-0.0003
+  LSTM Prediction: Not Fall=0.573, Fall=0.427
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.427)
+
+======================================================================
+Frame 74/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.81
+  ✅ Using detection #0 (conf=0.81)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.26, leg/body=0.81
+  → Pose: Lying
+  Velocity: vx=0.0001, vy=-0.0002, hip_vy=-0.0012
+  LSTM Prediction: Not Fall=0.578, Fall=0.422
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.422)
+
+======================================================================
+Frame 75/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.81
+  ✅ Using detection #0 (conf=0.81)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.26, leg/body=0.81
+  → Pose: Lying
+  Velocity: vx=-0.0004, vy=-0.0007, hip_vy=-0.0004
+  LSTM Prediction: Not Fall=0.580, Fall=0.420
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.420)
+
+======================================================================
+Frame 76/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.80
+  ✅ Using detection #0 (conf=0.80)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.26, leg/body=0.78
+  → Pose: Lying
+  Velocity: vx=0.0002, vy=-0.0005, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.580, Fall=0.420
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.420)
+
+======================================================================
+Frame 77/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.80
+  ✅ Using detection #0 (conf=0.80)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.26, leg/body=0.78
+  → Pose: Lying
+  Velocity: vx=-0.0002, vy=0.0001, hip_vy=0.0008
+  LSTM Prediction: Not Fall=0.581, Fall=0.419
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.419)
+
+======================================================================
+Frame 78/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.79
+  ✅ Using detection #0 (conf=0.79)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.26, leg/body=0.77
+  → Pose: Lying
+  Velocity: vx=0.0002, vy=-0.0002, hip_vy=-0.0002
+  LSTM Prediction: Not Fall=0.585, Fall=0.415
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.415)
+
+======================================================================
+Frame 79/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.80
+  ✅ Using detection #0 (conf=0.80)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.26, leg/body=0.80
+  → Pose: Lying
+  Velocity: vx=0.0005, vy=0.0006, hip_vy=0.0001
+  LSTM Prediction: Not Fall=0.587, Fall=0.413
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.413)
+
+======================================================================
+Frame 80/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.80
+  ✅ Using detection #0 (conf=0.80)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.26, leg/body=0.84
+  → Pose: Lying
+  Velocity: vx=0.0009, vy=0.0010, hip_vy=0.0001
+  LSTM Prediction: Not Fall=0.589, Fall=0.411
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.411)
+
+======================================================================
+Frame 81/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.81
+  ✅ Using detection #0 (conf=0.81)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.25, leg/body=0.90
+  → Pose: Lying
+  Velocity: vx=-0.0002, vy=-0.0001, hip_vy=0.0001
+  LSTM Prediction: Not Fall=0.586, Fall=0.414
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.414)
+
+======================================================================
+Frame 82/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.82
+  ✅ Using detection #0 (conf=0.82)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.24, leg/body=0.91
+  → Pose: Lying
+  Velocity: vx=-0.0002, vy=-0.0007, hip_vy=0.0012
+  LSTM Prediction: Not Fall=0.583, Fall=0.417
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.417)
+
+======================================================================
+Frame 83/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.82
+  ✅ Using detection #0 (conf=0.82)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.24, leg/body=0.92
+  → Pose: Lying
+  Velocity: vx=0.0001, vy=-0.0011, hip_vy=-0.0012
+  LSTM Prediction: Not Fall=0.581, Fall=0.419
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.419)
+
+======================================================================
+Frame 84/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.82
+  ✅ Using detection #0 (conf=0.82)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.24, leg/body=0.90
+  → Pose: Lying
+  Velocity: vx=-0.0002, vy=0.0002, hip_vy=0.0013
+  LSTM Prediction: Not Fall=0.577, Fall=0.423
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.423)
+
+======================================================================
+Frame 85/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.82
+  ✅ Using detection #0 (conf=0.82)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.23, leg/body=0.98
+  → Pose: Lying
+  Velocity: vx=0.0002, vy=-0.0006, hip_vy=-0.0005
+  LSTM Prediction: Not Fall=0.574, Fall=0.426
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.426)
+
+======================================================================
+Frame 86/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.83
+  ✅ Using detection #0 (conf=0.83)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.23, leg/body=1.07
+  → Pose: Lying
+  Velocity: vx=0.0007, vy=-0.0008, hip_vy=-0.0026
+  LSTM Prediction: Not Fall=0.576, Fall=0.424
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.424)
+
+======================================================================
+Frame 87/87
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.82
+  ✅ Using detection #0 (conf=0.82)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.22, leg/body=1.10
+  → Pose: Lying
+  Velocity: vx=-0.0007, vy=-0.0023, hip_vy=-0.0015
+  LSTM Prediction: Not Fall=0.577, Fall=0.423
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.423)
+
+✅ Debug finished

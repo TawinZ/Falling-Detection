@@ -1,0 +1,4413 @@
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Loading models...
+✅ Models loaded!
+======================================================================
+🐛 DEBUG MODE - Fall Detection
+======================================================================
+📹 Video: test_normal.MOV
+📊 Confidence Threshold: 0.9
+📊 Smoothing Window: 5
+======================================================================
+
+
+======================================================================
+Frame 1/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.65
+  → Pose: Standing
+
+⏳ Buffering sequences: 0/20
+
+======================================================================
+Frame 2/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0006
+  → Pose: Standing
+  Velocity: vx=-0.0002, vy=-0.0001, hip_vy=0.0003
+
+⏳ Buffering sequences: 1/20
+
+======================================================================
+Frame 3/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.64
+  Ankle movement: 0.0006
+  → Pose: Standing
+  Velocity: vx=-0.0003, vy=0.0004, hip_vy=0.0005
+
+⏳ Buffering sequences: 2/20
+
+======================================================================
+Frame 4/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0013
+  → Pose: Standing
+  Velocity: vx=-0.0009, vy=0.0001, hip_vy=-0.0003
+
+⏳ Buffering sequences: 3/20
+
+======================================================================
+Frame 5/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0005
+  → Pose: Standing
+  Velocity: vx=0.0007, vy=-0.0007, hip_vy=-0.0017
+
+⏳ Buffering sequences: 4/20
+
+======================================================================
+Frame 6/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.67
+  Ankle movement: 0.0018
+  → Pose: Standing
+  Velocity: vx=0.0007, vy=-0.0013, hip_vy=-0.0039
+
+⏳ Buffering sequences: 5/20
+
+======================================================================
+Frame 7/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.66
+  Ankle movement: 0.0007
+  → Pose: Standing
+  Velocity: vx=0.0005, vy=0.0000, hip_vy=0.0008
+
+⏳ Buffering sequences: 6/20
+
+======================================================================
+Frame 8/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.66
+  Ankle movement: 0.0019
+  → Pose: Standing
+  Velocity: vx=0.0004, vy=-0.0015, hip_vy=-0.0014
+
+⏳ Buffering sequences: 7/20
+
+======================================================================
+Frame 9/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0016
+  → Pose: Standing
+  Velocity: vx=-0.0007, vy=0.0003, hip_vy=0.0013
+
+⏳ Buffering sequences: 8/20
+
+======================================================================
+Frame 10/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0011
+  → Pose: Standing
+  Velocity: vx=-0.0006, vy=0.0012, hip_vy=0.0021
+
+⏳ Buffering sequences: 9/20
+
+======================================================================
+Frame 11/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0008
+  → Pose: Standing
+  Velocity: vx=-0.0006, vy=0.0006, hip_vy=0.0011
+
+⏳ Buffering sequences: 10/20
+
+======================================================================
+Frame 12/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.66
+  Ankle movement: 0.0012
+  → Pose: Standing
+  Velocity: vx=-0.0002, vy=-0.0021, hip_vy=-0.0032
+
+⏳ Buffering sequences: 11/20
+
+======================================================================
+Frame 13/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.66
+  Ankle movement: 0.0004
+  → Pose: Standing
+  Velocity: vx=-0.0004, vy=0.0004, hip_vy=0.0001
+
+⏳ Buffering sequences: 12/20
+
+======================================================================
+Frame 14/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0015
+  → Pose: Standing
+  Velocity: vx=-0.0003, vy=0.0021, hip_vy=0.0032
+
+⏳ Buffering sequences: 13/20
+
+======================================================================
+Frame 15/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0013
+  → Pose: Standing
+  Velocity: vx=-0.0003, vy=-0.0000, hip_vy=0.0004
+
+⏳ Buffering sequences: 14/20
+
+======================================================================
+Frame 16/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0001
+  → Pose: Standing
+  Velocity: vx=-0.0001, vy=0.0003, hip_vy=0.0005
+
+⏳ Buffering sequences: 15/20
+
+======================================================================
+Frame 17/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0003
+  → Pose: Standing
+  Velocity: vx=-0.0001, vy=0.0007, hip_vy=0.0013
+
+⏳ Buffering sequences: 16/20
+
+======================================================================
+Frame 18/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0004
+  → Pose: Standing
+  Velocity: vx=-0.0001, vy=0.0003, hip_vy=0.0000
+
+⏳ Buffering sequences: 17/20
+
+======================================================================
+Frame 19/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0002
+  → Pose: Standing
+  Velocity: vx=-0.0001, vy=-0.0005, hip_vy=-0.0010
+
+⏳ Buffering sequences: 18/20
+
+======================================================================
+Frame 20/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0002
+  → Pose: Standing
+  Velocity: vx=-0.0001, vy=0.0001, hip_vy=0.0003
+
+⏳ Buffering sequences: 19/20
+
+======================================================================
+Frame 21/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.65
+  Ankle movement: 0.0003
+  → Pose: Standing
+  Velocity: vx=-0.0000, vy=0.0000, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.573, Fall=0.427
+  Pose Filter Applied: 0.427 → 0.000
+  Smoothing buffer: 1/5
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 22/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0018
+  → Pose: Standing
+  Velocity: vx=-0.0001, vy=0.0009, hip_vy=0.0002
+  LSTM Prediction: Not Fall=0.575, Fall=0.425
+  Pose Filter Applied: 0.425 → 0.000
+  Smoothing buffer: 2/5
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 23/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.66
+  Ankle movement: 0.0003
+  → Pose: Standing
+  Velocity: vx=0.0001, vy=-0.0004, hip_vy=-0.0006
+  LSTM Prediction: Not Fall=0.576, Fall=0.424
+  Pose Filter Applied: 0.424 → 0.000
+  Smoothing buffer: 3/5
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 24/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0002
+  → Pose: Standing
+  Velocity: vx=0.0001, vy=0.0004, hip_vy=0.0009
+  LSTM Prediction: Not Fall=0.577, Fall=0.423
+  Pose Filter Applied: 0.423 → 0.000
+  Smoothing buffer: 4/5
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 25/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0004
+  → Pose: Standing
+  Velocity: vx=0.0002, vy=-0.0002, hip_vy=-0.0003
+  LSTM Prediction: Not Fall=0.578, Fall=0.422
+  Pose Filter Applied: 0.422 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 26/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0003
+  → Pose: Standing
+  Velocity: vx=0.0001, vy=0.0001, hip_vy=0.0001
+  LSTM Prediction: Not Fall=0.579, Fall=0.421
+  Pose Filter Applied: 0.421 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 27/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0002
+  → Pose: Standing
+  Velocity: vx=-0.0000, vy=0.0001, hip_vy=-0.0001
+  LSTM Prediction: Not Fall=0.579, Fall=0.421
+  Pose Filter Applied: 0.421 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 28/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.65
+  Ankle movement: 0.0001
+  → Pose: Standing
+  Velocity: vx=0.0005, vy=0.0007, hip_vy=0.0009
+  LSTM Prediction: Not Fall=0.578, Fall=0.422
+  Pose Filter Applied: 0.422 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 29/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.65
+  Ankle movement: 0.0006
+  → Pose: Standing
+  Velocity: vx=0.0007, vy=-0.0009, hip_vy=-0.0016
+  LSTM Prediction: Not Fall=0.578, Fall=0.422
+  Pose Filter Applied: 0.422 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 30/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.66
+  Ankle movement: 0.0003
+  → Pose: Standing
+  Velocity: vx=0.0011, vy=-0.0005, hip_vy=-0.0010
+  LSTM Prediction: Not Fall=0.579, Fall=0.421
+  Pose Filter Applied: 0.421 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 31/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.66
+  Ankle movement: 0.0007
+  → Pose: Standing
+  Velocity: vx=0.0008, vy=-0.0004, hip_vy=-0.0004
+  LSTM Prediction: Not Fall=0.580, Fall=0.420
+  Pose Filter Applied: 0.420 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 32/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.65
+  Ankle movement: 0.0009
+  → Pose: Standing
+  Velocity: vx=0.0009, vy=0.0029, hip_vy=0.0040
+  LSTM Prediction: Not Fall=0.579, Fall=0.421
+  Pose Filter Applied: 0.421 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 33/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.65
+  Ankle movement: 0.0013
+  → Pose: Standing
+  Velocity: vx=0.0015, vy=0.0016, hip_vy=0.0019
+  LSTM Prediction: Not Fall=0.575, Fall=0.425
+  Pose Filter Applied: 0.425 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 34/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.64
+  Ankle movement: 0.0013
+  → Pose: Standing
+  Velocity: vx=0.0014, vy=0.0019, hip_vy=0.0029
+  LSTM Prediction: Not Fall=0.569, Fall=0.431
+  Pose Filter Applied: 0.431 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 35/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.65
+  Ankle movement: 0.0030
+  → Pose: Standing
+  Velocity: vx=0.0014, vy=0.0038, hip_vy=0.0030
+  LSTM Prediction: Not Fall=0.560, Fall=0.440
+  Pose Filter Applied: 0.440 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 36/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.66
+  Ankle movement: 0.0049
+  → Pose: Standing
+  Velocity: vx=0.0009, vy=0.0053, hip_vy=0.0040
+  LSTM Prediction: Not Fall=0.550, Fall=0.450
+  Pose Filter Applied: 0.450 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 37/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.66
+  Ankle movement: 0.0032
+  → Pose: Standing
+  Velocity: vx=-0.0000, vy=0.0078, hip_vy=0.0094
+  LSTM Prediction: Not Fall=0.536, Fall=0.464
+  Pose Filter Applied: 0.464 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 38/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.66
+  Ankle movement: 0.0028
+  → Pose: Standing
+  Velocity: vx=0.0013, vy=0.0060, hip_vy=0.0063
+  LSTM Prediction: Not Fall=0.516, Fall=0.484
+  Pose Filter Applied: 0.484 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 39/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.65
+  Ankle movement: 0.0047
+  → Pose: Standing
+  Velocity: vx=0.0007, vy=0.0053, hip_vy=0.0061
+  LSTM Prediction: Not Fall=0.491, Fall=0.509
+  Pose Filter Applied: 0.509 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 40/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.71
+  Ankle movement: 0.0113
+  → Pose: Standing
+  Velocity: vx=0.0001, vy=0.0078, hip_vy=0.0008
+  LSTM Prediction: Not Fall=0.462, Fall=0.538
+  Pose Filter Applied: 0.538 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 41/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.70
+  Ankle movement: 0.0080
+  → Pose: Standing
+  Velocity: vx=-0.0006, vy=0.0052, hip_vy=0.0059
+  LSTM Prediction: Not Fall=0.431, Fall=0.569
+  Pose Filter Applied: 0.569 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 42/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.70
+  Ankle movement: 0.0065
+  → Pose: Standing
+  Velocity: vx=-0.0002, vy=-0.0042, hip_vy=-0.0027
+  LSTM Prediction: Not Fall=0.416, Fall=0.584
+  Pose Filter Applied: 0.584 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 43/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.69
+  Ankle movement: 0.0015
+  → Pose: Standing
+  Velocity: vx=0.0002, vy=0.0026, hip_vy=0.0051
+  LSTM Prediction: Not Fall=0.425, Fall=0.575
+  Pose Filter Applied: 0.575 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 44/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.69
+  Ankle movement: 0.0051
+  → Pose: Standing
+  Velocity: vx=0.0007, vy=0.0054, hip_vy=0.0058
+  LSTM Prediction: Not Fall=0.447, Fall=0.553
+  Pose Filter Applied: 0.553 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 45/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.67
+  Ankle movement: 0.0058
+  → Pose: Standing
+  Velocity: vx=0.0014, vy=0.0074, hip_vy=0.0092
+  LSTM Prediction: Not Fall=0.466, Fall=0.534
+  Pose Filter Applied: 0.534 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 46/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.66
+  Ankle movement: 0.0119
+  → Pose: Standing
+  Velocity: vx=0.0018, vy=0.0112, hip_vy=0.0108
+  LSTM Prediction: Not Fall=0.467, Fall=0.533
+  Pose Filter Applied: 0.533 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 47/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.63
+  Ankle movement: 0.0132
+  → Pose: Standing
+  Velocity: vx=0.0029, vy=0.0128, hip_vy=0.0131
+  LSTM Prediction: Not Fall=0.443, Fall=0.557
+  Pose Filter Applied: 0.557 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 48/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.65
+  Ankle movement: 0.0137
+  → Pose: Standing
+  Velocity: vx=0.0033, vy=0.0123, hip_vy=0.0102
+  LSTM Prediction: Not Fall=0.395, Fall=0.605
+  Pose Filter Applied: 0.605 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 49/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.63
+  Ankle movement: 0.0094
+  → Pose: Standing
+  Velocity: vx=0.0032, vy=0.0108, hip_vy=0.0110
+  LSTM Prediction: Not Fall=0.341, Fall=0.659
+  Pose Filter Applied: 0.659 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 50/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.64
+  Ankle movement: 0.0048
+  → Pose: Standing
+  Velocity: vx=0.0032, vy=0.0086, hip_vy=0.0092
+  LSTM Prediction: Not Fall=0.310, Fall=0.690
+  Pose Filter Applied: 0.690 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 51/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.61
+  Ankle movement: 0.0048
+  → Pose: Standing
+  Velocity: vx=0.0046, vy=0.0059, hip_vy=0.0110
+  LSTM Prediction: Not Fall=0.330, Fall=0.670
+  Pose Filter Applied: 0.670 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 52/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.59
+  Ankle movement: 0.0054
+  → Pose: Sitting
+  Velocity: vx=0.0053, vy=0.0045, hip_vy=0.0099
+  LSTM Prediction: Not Fall=0.382, Fall=0.618
+  Pose Filter Applied: 0.618 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 53/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.59
+  Ankle movement: 0.0023
+  → Pose: Sitting
+  Velocity: vx=0.0033, vy=0.0037, hip_vy=0.0058
+  LSTM Prediction: Not Fall=0.453, Fall=0.547
+  Pose Filter Applied: 0.547 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 54/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.60
+  Ankle movement: 0.0098
+  → Pose: Standing
+  Velocity: vx=0.0043, vy=0.0063, hip_vy=0.0027
+  LSTM Prediction: Not Fall=0.492, Fall=0.508
+  Pose Filter Applied: 0.508 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 55/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.62
+  Ankle movement: 0.0212
+  → Pose: Walking
+  Velocity: vx=0.0032, vy=0.0200, hip_vy=0.0152
+  LSTM Prediction: Not Fall=0.500, Fall=0.500
+  Pose Filter Applied: 0.500 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 56/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.65
+  Ankle movement: 0.0103
+  → Pose: Standing
+  Velocity: vx=0.0026, vy=0.0165, hip_vy=0.0160
+  LSTM Prediction: Not Fall=0.478, Fall=0.522
+  Pose Filter Applied: 0.522 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 57/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.66
+  Ankle movement: 0.0074
+  → Pose: Standing
+  Velocity: vx=0.0020, vy=0.0103, hip_vy=0.0105
+  LSTM Prediction: Not Fall=0.445, Fall=0.555
+  Pose Filter Applied: 0.555 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 58/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.68
+  Ankle movement: 0.0043
+  → Pose: Standing
+  Velocity: vx=0.0008, vy=0.0139, hip_vy=0.0163
+  LSTM Prediction: Not Fall=0.434, Fall=0.566
+  Pose Filter Applied: 0.566 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 59/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.68
+  Ankle movement: 0.0069
+  → Pose: Standing
+  Velocity: vx=0.0004, vy=0.0121, hip_vy=0.0148
+  LSTM Prediction: Not Fall=0.447, Fall=0.553
+  Pose Filter Applied: 0.553 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 60/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.64
+  Ankle movement: 0.0059
+  → Pose: Standing
+  Velocity: vx=0.0022, vy=0.0022, hip_vy=0.0062
+  LSTM Prediction: Not Fall=0.454, Fall=0.546
+  Pose Filter Applied: 0.546 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 61/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.63
+  Ankle movement: 0.0115
+  → Pose: Standing
+  Velocity: vx=0.0030, vy=0.0130, hip_vy=0.0163
+  LSTM Prediction: Not Fall=0.458, Fall=0.542
+  Pose Filter Applied: 0.542 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 62/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.63
+  Ankle movement: 0.3988
+  → Pose: Walking
+  Velocity: vx=-0.0666, vy=-0.0889, hip_vy=0.0202
+  LSTM Prediction: Not Fall=0.319, Fall=0.681
+  Pose Filter Applied: 0.681 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 63/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.67
+  Ankle movement: 0.0056
+  → Pose: Standing
+  Velocity: vx=0.0039, vy=0.0138, hip_vy=0.0121
+  LSTM Prediction: Not Fall=0.126, Fall=0.874
+  Pose Filter Applied: 0.874 → 0.174
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.174)
+
+======================================================================
+Frame 64/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.65
+  Ankle movement: 0.4023
+  → Pose: Walking
+  Velocity: vx=-0.0630, vy=-0.0986, hip_vy=0.0196
+  LSTM Prediction: Not Fall=0.033, Fall=0.967
+  Pose Filter Applied: 0.967 → 0.267
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.267)
+
+======================================================================
+Frame 65/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.66
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0030, vy=0.0119, hip_vy=0.0146
+  LSTM Prediction: Not Fall=0.011, Fall=0.989
+  Pose Filter Applied: 0.989 → 0.289
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.289)
+
+======================================================================
+Frame 66/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.63
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0040, vy=0.0110, hip_vy=0.0184
+  LSTM Prediction: Not Fall=0.009, Fall=0.991
+  Pose Filter Applied: 0.991 → 0.291
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.291)
+
+======================================================================
+Frame 67/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=2.48
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.1393, vy=-0.2043, hip_vy=0.0142
+  LSTM Prediction: Not Fall=0.003, Fall=0.997
+  Pose Filter Applied: 0.997 → 0.297
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.297)
+
+======================================================================
+Frame 68/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=2.34
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0071, vy=0.0137, hip_vy=0.0496
+  LSTM Prediction: Not Fall=0.002, Fall=0.998
+  Pose Filter Applied: 0.998 → 0.298
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.298)
+
+======================================================================
+Frame 69/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.79
+  ✅ Using detection #0 (conf=0.79)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=2.21
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0080, vy=0.0071, hip_vy=0.0339
+  LSTM Prediction: Not Fall=0.002, Fall=0.998
+  Pose Filter Applied: 0.998 → 0.298
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.298)
+
+======================================================================
+Frame 70/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=2.23
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0043, vy=0.0079, hip_vy=0.0196
+  LSTM Prediction: Not Fall=0.002, Fall=0.998
+  Pose Filter Applied: 0.998 → 0.298
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.298)
+
+======================================================================
+Frame 71/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=2.28
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0050, vy=0.0090, hip_vy=0.0166
+  LSTM Prediction: Not Fall=0.009, Fall=0.991
+  Pose Filter Applied: 0.991 → 0.291
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.291)
+
+======================================================================
+Frame 72/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=2.25
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0059, vy=0.0110, hip_vy=0.0295
+  LSTM Prediction: Not Fall=0.021, Fall=0.979
+  Pose Filter Applied: 0.979 → 0.279
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.279)
+
+======================================================================
+Frame 73/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=2.27
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0046, vy=0.0140, hip_vy=0.0322
+  LSTM Prediction: Not Fall=0.030, Fall=0.970
+  Pose Filter Applied: 0.970 → 0.270
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.270)
+
+======================================================================
+Frame 74/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=2.44
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0057, vy=0.0080, hip_vy=-0.0031
+  LSTM Prediction: Not Fall=0.052, Fall=0.948
+  Pose Filter Applied: 0.948 → 0.248
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.248)
+
+======================================================================
+Frame 75/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=2.49
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0055, vy=0.0091, hip_vy=0.0144
+  LSTM Prediction: Not Fall=0.103, Fall=0.897
+  Pose Filter Applied: 0.897 → 0.197
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.197)
+
+======================================================================
+Frame 76/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.89, leg/body=2.60/Users/tawinfaksakorn/Documents/Falling-Detection/src/inference/debug_video.py:105: RuntimeWarning: invalid value encountered in scalar divide
+  print(f"  Pose ratios: body_vertical={body_vertical:.2f}, leg/body={leg_height/body_height:.2f}")
+
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0051, vy=0.0060, hip_vy=0.0028
+  LSTM Prediction: Not Fall=0.133, Fall=0.867
+  Pose Filter Applied: 0.867 → 0.167
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.167)
+
+======================================================================
+Frame 77/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.12, leg/body=4.14
+  → Pose: Lying
+  Velocity: vx=-0.0846, vy=-0.1020, hip_vy=-0.4779
+  LSTM Prediction: Not Fall=0.127, Fall=0.873
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.873)
+
+======================================================================
+Frame 78/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.42, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=-0.0741, vy=-0.1056, hip_vy=-0.4910
+  LSTM Prediction: Not Fall=0.140, Fall=0.860
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.860)
+
+======================================================================
+Frame 79/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.42, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=0.0050, vy=0.0089, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.161, Fall=0.839
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.839)
+
+======================================================================
+Frame 80/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.43, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=0.0055, vy=0.0098, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.193, Fall=0.807
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.807)
+
+======================================================================
+Frame 81/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.43, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=0.0065, vy=0.0105, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.226, Fall=0.774
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.774)
+
+======================================================================
+Frame 82/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.44, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=0.0076, vy=0.0141, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.324, Fall=0.676
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.676)
+
+======================================================================
+Frame 83/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.45, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=0.0088, vy=0.0157, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.359, Fall=0.641
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.641)
+
+======================================================================
+Frame 84/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.46, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=0.0080, vy=0.0090, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.579, Fall=0.421
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.421)
+
+======================================================================
+Frame 85/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=0.00
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=-0.2163, vy=-0.1599, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.534, Fall=0.466
+  Pose Filter Applied: 0.466 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 86/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.80
+  ✅ Using detection #0 (conf=0.80)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.00, leg/body=nan
+  → Pose: Lying
+  Velocity: vx=-0.0909, vy=-0.0973, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.379, Fall=0.621
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.621)
+
+======================================================================
+Frame 87/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.81
+  ✅ Using detection #0 (conf=0.81)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.00, leg/body=nan
+  → Pose: Lying
+  Velocity: vx=0.0000, vy=0.0000, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.360, Fall=0.640
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.640)
+
+======================================================================
+Frame 88/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 89/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 90/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 91/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 92/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 93/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 94/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 95/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 96/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 97/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 98/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 99/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 100/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 101/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 102/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 103/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 104/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 105/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 106/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 107/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 108/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 109/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 110/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 111/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 112/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 113/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 114/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 115/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 116/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 117/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 118/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 119/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 120/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 121/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 122/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 123/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 124/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 125/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.59
+  ✅ Using detection #0 (conf=0.59)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.00, leg/body=nan
+  → Pose: Lying
+  Velocity: vx=0.0000, vy=0.0000, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.393, Fall=0.607
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.607)
+
+======================================================================
+Frame 126/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.78
+  ✅ Using detection #0 (conf=0.78)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=0.00
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=0.1111, vy=0.0861, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.293, Fall=0.707
+  Pose Filter Applied: 0.707 → 0.007
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.007)
+
+======================================================================
+Frame 127/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.88
+  ✅ Using detection #0 (conf=0.88)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.51, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=0.0862, vy=0.0963, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.165, Fall=0.835
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.835)
+
+======================================================================
+Frame 128/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.52, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=-0.0029, vy=-0.0010, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.101, Fall=0.899
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.899)
+
+======================================================================
+Frame 129/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.52, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=-0.0008, vy=-0.0016, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.071, Fall=0.929
+  Smoothing: 1/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.929)
+
+======================================================================
+Frame 130/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.49, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=0.0002, vy=-0.0147, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.084, Fall=0.916
+  Smoothing: 2/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.916)
+
+======================================================================
+Frame 131/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.48, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=0.0000, vy=-0.0062, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.211, Fall=0.789
+  Smoothing: 2/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.789)
+
+======================================================================
+Frame 132/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.47, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=-0.0032, vy=-0.0081, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.481, Fall=0.519
+  Smoothing: 2/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.519)
+
+======================================================================
+Frame 133/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.46, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=0.0003, vy=-0.0056, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.583, Fall=0.417
+  Smoothing: 2/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.417)
+
+======================================================================
+Frame 134/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.45, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=0.0006, vy=-0.0040, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.633, Fall=0.367
+  Smoothing: 1/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.367)
+
+======================================================================
+Frame 135/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.44, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=-0.0012, vy=-0.0063, hip_vy=0.0000
+  LSTM Prediction: Not Fall=0.226, Fall=0.774
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.774)
+
+======================================================================
+Frame 136/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.86, leg/body=5.11
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0870, vy=0.1022, hip_vy=0.4861
+  LSTM Prediction: Not Fall=0.204, Fall=0.796
+  Pose Filter Applied: 0.796 → 0.096
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.096)
+
+======================================================================
+Frame 137/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=2.38
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0976, vy=0.1068, hip_vy=0.4942
+  LSTM Prediction: Not Fall=0.187, Fall=0.813
+  Pose Filter Applied: 0.813 → 0.113
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.113)
+
+======================================================================
+Frame 138/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=2.36
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0039, vy=-0.0064, hip_vy=-0.0163
+  LSTM Prediction: Not Fall=0.363, Fall=0.637
+  Pose Filter Applied: 0.637 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 139/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=2.34
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0013, vy=-0.0096, hip_vy=-0.0258
+  LSTM Prediction: Not Fall=0.766, Fall=0.234
+  Pose Filter Applied: 0.234 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 140/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=2.29
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0029, vy=-0.0108, hip_vy=-0.0256
+  LSTM Prediction: Not Fall=0.844, Fall=0.156
+  Pose Filter Applied: 0.156 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 141/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=2.26
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0011, vy=-0.0150, hip_vy=-0.0400
+  LSTM Prediction: Not Fall=0.867, Fall=0.133
+  Pose Filter Applied: 0.133 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 142/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=2.27
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0022, vy=-0.0141, hip_vy=-0.0415
+  LSTM Prediction: Not Fall=0.418, Fall=0.582
+  Pose Filter Applied: 0.582 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 143/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.90
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0845, vy=0.0949, hip_vy=-0.0425
+  LSTM Prediction: Not Fall=0.846, Fall=0.154
+  Pose Filter Applied: 0.154 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 144/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.58
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=0.0940, vy=0.0962, hip_vy=-0.0248
+  LSTM Prediction: Not Fall=0.925, Fall=0.075
+  Pose Filter Applied: 0.075 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 145/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.56
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=0.0004, vy=-0.0022, hip_vy=-0.0004
+  LSTM Prediction: Not Fall=0.957, Fall=0.043
+  Pose Filter Applied: 0.043 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 146/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.56
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=0.0014, vy=-0.0072, hip_vy=-0.0119
+  LSTM Prediction: Not Fall=0.967, Fall=0.033
+  Pose Filter Applied: 0.033 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 147/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.58
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=0.0019, vy=-0.0093, hip_vy=-0.0178
+  LSTM Prediction: Not Fall=0.972, Fall=0.028
+  Pose Filter Applied: 0.028 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 148/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.60
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=0.0023, vy=-0.0083, hip_vy=-0.0147
+  LSTM Prediction: Not Fall=0.974, Fall=0.026
+  Pose Filter Applied: 0.026 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 149/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.62
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0026, vy=-0.0133, hip_vy=-0.0234
+  LSTM Prediction: Not Fall=0.975, Fall=0.025
+  Pose Filter Applied: 0.025 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 150/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=0.66
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0033, vy=-0.0190, hip_vy=-0.0344
+  LSTM Prediction: Not Fall=0.976, Fall=0.024
+  Pose Filter Applied: 0.024 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 151/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=0.62
+  Ankle movement: 0.8952
+  → Pose: Walking
+  Velocity: vx=0.1863, vy=0.2063, hip_vy=-0.0108
+  LSTM Prediction: Not Fall=0.975, Fall=0.025
+  Pose Filter Applied: 0.025 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 152/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=0.63
+  Ankle movement: 0.0083
+  → Pose: Standing
+  Velocity: vx=-0.0007, vy=-0.0161, hip_vy=-0.0220
+  LSTM Prediction: Not Fall=0.972, Fall=0.028
+  Pose Filter Applied: 0.028 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 153/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.65
+  Ankle movement: 0.0078
+  → Pose: Standing
+  Velocity: vx=-0.0019, vy=-0.0078, hip_vy=-0.0116
+  LSTM Prediction: Not Fall=0.966, Fall=0.034
+  Pose Filter Applied: 0.034 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 154/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.87
+  ✅ Using detection #0 (conf=0.87)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.64
+  Ankle movement: 0.0180
+  → Pose: Standing
+  Velocity: vx=-0.0048, vy=-0.0085, hip_vy=-0.0022
+  LSTM Prediction: Not Fall=0.960, Fall=0.040
+  Pose Filter Applied: 0.040 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 155/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.84
+  ✅ Using detection #0 (conf=0.84)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=0.64
+  Ankle movement: 0.0039
+  → Pose: Standing
+  Velocity: vx=-0.0045, vy=-0.0056, hip_vy=-0.0067
+  LSTM Prediction: Not Fall=0.955, Fall=0.045
+  Pose Filter Applied: 0.045 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 156/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.83
+  ✅ Using detection #0 (conf=0.83)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.66
+  Ankle movement: 0.0032
+  → Pose: Standing
+  Velocity: vx=-0.0041, vy=-0.0098, hip_vy=-0.0154
+  LSTM Prediction: Not Fall=0.455, Fall=0.545
+  Pose Filter Applied: 0.545 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 157/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.86
+  ✅ Using detection #0 (conf=0.86)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.68
+  Ankle movement: 0.0123
+  → Pose: Standing
+  Velocity: vx=-0.0044, vy=-0.0202, hip_vy=-0.0262
+  LSTM Prediction: Not Fall=0.628, Fall=0.372
+  Pose Filter Applied: 0.372 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 158/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.82
+  ✅ Using detection #0 (conf=0.82)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.72
+  Ankle movement: 0.0085
+  → Pose: Standing
+  Velocity: vx=-0.0040, vy=-0.0126, hip_vy=-0.0184
+  LSTM Prediction: Not Fall=0.653, Fall=0.347
+  Pose Filter Applied: 0.347 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 159/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=0.68
+  Ankle movement: 0.0159
+  → Pose: Standing
+  Velocity: vx=-0.0060, vy=-0.0113, hip_vy=-0.0060
+  LSTM Prediction: Not Fall=0.658, Fall=0.342
+  Pose Filter Applied: 0.342 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 160/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.81
+  ✅ Using detection #0 (conf=0.81)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=0.66
+  Ankle movement: 0.0096
+  → Pose: Standing
+  Velocity: vx=-0.0039, vy=-0.0079, hip_vy=-0.0059
+  LSTM Prediction: Not Fall=0.660, Fall=0.340
+  Pose Filter Applied: 0.340 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 161/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.62
+  Ankle movement: 0.0150
+  → Pose: Standing
+  Velocity: vx=-0.0039, vy=-0.0057, hip_vy=0.0010
+  LSTM Prediction: Not Fall=0.658, Fall=0.342
+  Pose Filter Applied: 0.342 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 162/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.83
+  ✅ Using detection #0 (conf=0.83)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.68
+  Ankle movement: 0.0108
+  → Pose: Standing
+  Velocity: vx=-0.0034, vy=0.0010, hip_vy=-0.0081
+  LSTM Prediction: Not Fall=0.653, Fall=0.347
+  Pose Filter Applied: 0.347 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 163/289
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.84
+    #1: class=0, conf=0.54
+  ✅ Using detection #0 (conf=0.84)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.67
+  Ankle movement: 0.0034
+  → Pose: Standing
+  Velocity: vx=-0.0035, vy=0.0026, hip_vy=0.0050
+  LSTM Prediction: Not Fall=0.647, Fall=0.353
+  Pose Filter Applied: 0.353 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 164/289
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.88
+    #1: class=0, conf=0.56
+  ✅ Using detection #0 (conf=0.88)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.69
+  Ankle movement: 0.0066
+  → Pose: Standing
+  Velocity: vx=-0.0032, vy=-0.0035, hip_vy=-0.0046
+  LSTM Prediction: Not Fall=0.610, Fall=0.390
+  Pose Filter Applied: 0.390 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 165/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.63
+  Ankle movement: 0.0166
+  → Pose: Standing
+  Velocity: vx=0.0772, vy=0.0076, hip_vy=-0.0114
+  LSTM Prediction: Not Fall=0.577, Fall=0.423
+  Pose Filter Applied: 0.423 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 166/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.61
+  Ankle movement: 0.0178
+  → Pose: Standing
+  Velocity: vx=-0.0076, vy=-0.0164, hip_vy=-0.0137
+  LSTM Prediction: Not Fall=0.515, Fall=0.485
+  Pose Filter Applied: 0.485 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 167/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.60
+  Ankle movement: 0.0154
+  → Pose: Sitting
+  Velocity: vx=-0.0036, vy=-0.0173, hip_vy=-0.0183
+  LSTM Prediction: Not Fall=0.451, Fall=0.549
+  Pose Filter Applied: 0.549 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 168/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.66
+  Ankle movement: 0.0144
+  → Pose: Standing
+  Velocity: vx=-0.0119, vy=-0.0058, hip_vy=-0.0139
+  LSTM Prediction: Not Fall=0.443, Fall=0.557
+  Pose Filter Applied: 0.557 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 169/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.59
+  Ankle movement: 0.0134
+  → Pose: Sitting
+  Velocity: vx=-0.0070, vy=-0.0026, hip_vy=0.0038
+  LSTM Prediction: Not Fall=0.500, Fall=0.500
+  Pose Filter Applied: 0.500 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 170/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.60
+  Ankle movement: 0.0050
+  → Pose: Standing
+  Velocity: vx=-0.0090, vy=-0.0017, hip_vy=-0.0036
+  LSTM Prediction: Not Fall=0.540, Fall=0.460
+  Pose Filter Applied: 0.460 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 171/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.59
+  Ankle movement: 0.0121
+  → Pose: Sitting
+  Velocity: vx=-0.0107, vy=-0.0009, hip_vy=0.0037
+  LSTM Prediction: Not Fall=0.566, Fall=0.434
+  Pose Filter Applied: 0.434 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 172/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.54
+  Ankle movement: 0.0078
+  → Pose: Sitting
+  Velocity: vx=-0.0107, vy=-0.0014, hip_vy=0.0020
+  LSTM Prediction: Not Fall=0.574, Fall=0.426
+  Pose Filter Applied: 0.426 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 173/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=0.58
+  Ankle movement: 0.0070
+  → Pose: Sitting
+  Velocity: vx=-0.0112, vy=-0.0071, hip_vy=-0.0111
+  LSTM Prediction: Not Fall=0.628, Fall=0.372
+  Pose Filter Applied: 0.372 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 174/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.57
+  Ankle movement: 0.0052
+  → Pose: Sitting
+  Velocity: vx=-0.0107, vy=-0.0049, hip_vy=-0.0035
+  LSTM Prediction: Not Fall=0.668, Fall=0.332
+  Pose Filter Applied: 0.332 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 175/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.64
+  Ankle movement: 0.0120
+  → Pose: Standing
+  Velocity: vx=-0.0104, vy=-0.0108, hip_vy=-0.0169
+  LSTM Prediction: Not Fall=0.673, Fall=0.327
+  Pose Filter Applied: 0.327 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 176/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.63
+  Ankle movement: 0.0093
+  → Pose: Standing
+  Velocity: vx=-0.0106, vy=-0.0034, hip_vy=-0.0008
+  LSTM Prediction: Not Fall=0.664, Fall=0.336
+  Pose Filter Applied: 0.336 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 177/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.67
+  Ankle movement: 0.0155
+  → Pose: Standing
+  Velocity: vx=-0.0112, vy=-0.0056, hip_vy=-0.0083
+  LSTM Prediction: Not Fall=0.651, Fall=0.349
+  Pose Filter Applied: 0.349 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 178/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.87
+  ✅ Using detection #0 (conf=0.87)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.68
+  Ankle movement: 0.0161
+  → Pose: Standing
+  Velocity: vx=-0.0133, vy=0.0031, hip_vy=0.0010
+  LSTM Prediction: Not Fall=0.634, Fall=0.366
+  Pose Filter Applied: 0.366 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 179/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.86
+  ✅ Using detection #0 (conf=0.86)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=0.59
+  Ankle movement: 0.0166
+  → Pose: Sitting
+  Velocity: vx=-0.0134, vy=-0.0077, hip_vy=-0.0000
+  LSTM Prediction: Not Fall=0.610, Fall=0.390
+  Pose Filter Applied: 0.390 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 180/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.60
+  Ankle movement: 0.0072
+  → Pose: Standing
+  Velocity: vx=-0.0107, vy=0.0034, hip_vy=0.0037
+  LSTM Prediction: Not Fall=0.579, Fall=0.421
+  Pose Filter Applied: 0.421 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 181/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.63
+  Ankle movement: 0.0093
+  → Pose: Standing
+  Velocity: vx=-0.0120, vy=0.0016, hip_vy=0.0006
+  LSTM Prediction: Not Fall=0.543, Fall=0.457
+  Pose Filter Applied: 0.457 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 182/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=0.64
+  Ankle movement: 0.0048
+  → Pose: Standing
+  Velocity: vx=-0.0101, vy=0.0001, hip_vy=-0.0013
+  LSTM Prediction: Not Fall=0.500, Fall=0.500
+  Pose Filter Applied: 0.500 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 183/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.67
+  Ankle movement: 0.0067
+  → Pose: Standing
+  Velocity: vx=-0.0110, vy=0.0023, hip_vy=0.0013
+  LSTM Prediction: Not Fall=0.451, Fall=0.549
+  Pose Filter Applied: 0.549 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 184/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=0.72
+  Ankle movement: 0.0079
+  → Pose: Standing
+  Velocity: vx=-0.0089, vy=-0.0064, hip_vy=-0.0101
+  LSTM Prediction: Not Fall=0.408, Fall=0.592
+  Pose Filter Applied: 0.592 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 185/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.65
+  Ankle movement: 0.0097
+  → Pose: Standing
+  Velocity: vx=-0.0101, vy=0.0007, hip_vy=0.0081
+  LSTM Prediction: Not Fall=0.347, Fall=0.653
+  Pose Filter Applied: 0.653 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 186/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.86
+  ✅ Using detection #0 (conf=0.86)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.67
+  Ankle movement: 0.0112
+  → Pose: Standing
+  Velocity: vx=-0.0160, vy=0.0014, hip_vy=-0.0006
+  LSTM Prediction: Not Fall=0.362, Fall=0.638
+  Pose Filter Applied: 0.638 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 187/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.87
+  ✅ Using detection #0 (conf=0.87)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.63
+  Ankle movement: 0.0132
+  → Pose: Standing
+  Velocity: vx=-0.0086, vy=0.0059, hip_vy=0.0076
+  LSTM Prediction: Not Fall=0.368, Fall=0.632
+  Pose Filter Applied: 0.632 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 188/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.62
+  Ankle movement: 0.0116
+  → Pose: Standing
+  Velocity: vx=-0.0071, vy=0.0063, hip_vy=0.0070
+  LSTM Prediction: Not Fall=0.302, Fall=0.698
+  Pose Filter Applied: 0.698 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 189/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.59
+  Ankle movement: 0.0134
+  → Pose: Sitting
+  Velocity: vx=-0.0086, vy=0.0065, hip_vy=0.0070
+  LSTM Prediction: Not Fall=0.204, Fall=0.796
+  Pose Filter Applied: 0.796 → 0.096
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.096)
+
+======================================================================
+Frame 190/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.57
+  Ankle movement: 0.0104
+  → Pose: Sitting
+  Velocity: vx=-0.0074, vy=0.0052, hip_vy=0.0092
+  LSTM Prediction: Not Fall=0.152, Fall=0.848
+  Pose Filter Applied: 0.848 → 0.148
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.148)
+
+======================================================================
+Frame 191/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.61
+  Ankle movement: 0.0060
+  → Pose: Standing
+  Velocity: vx=-0.0060, vy=0.0026, hip_vy=-0.0009
+  LSTM Prediction: Not Fall=0.136, Fall=0.864
+  Pose Filter Applied: 0.864 → 0.164
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.164)
+
+======================================================================
+Frame 192/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.64
+  Ankle movement: 0.0068
+  → Pose: Standing
+  Velocity: vx=-0.0075, vy=0.0006, hip_vy=0.0005
+  LSTM Prediction: Not Fall=0.166, Fall=0.834
+  Pose Filter Applied: 0.834 → 0.134
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.134)
+
+======================================================================
+Frame 193/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.88
+  ✅ Using detection #0 (conf=0.88)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.65
+  Ankle movement: 0.0081
+  → Pose: Standing
+  Velocity: vx=-0.0100, vy=0.0017, hip_vy=0.0009
+  LSTM Prediction: Not Fall=0.252, Fall=0.748
+  Pose Filter Applied: 0.748 → 0.048
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.048)
+
+======================================================================
+Frame 194/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.89, leg/body=0.62
+  Ankle movement: 0.0117
+  → Pose: Standing
+  Velocity: vx=-0.0114, vy=0.0074, hip_vy=0.0123
+  LSTM Prediction: Not Fall=0.331, Fall=0.669
+  Pose Filter Applied: 0.669 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 195/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.89, leg/body=0.62
+  Ankle movement: 0.0105
+  → Pose: Standing
+  Velocity: vx=-0.0075, vy=-0.0002, hip_vy=0.0004
+  LSTM Prediction: Not Fall=0.373, Fall=0.627
+  Pose Filter Applied: 0.627 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 196/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.64
+  Ankle movement: 0.0146
+  → Pose: Standing
+  Velocity: vx=-0.0053, vy=0.0058, hip_vy=-0.0006
+  LSTM Prediction: Not Fall=0.379, Fall=0.621
+  Pose Filter Applied: 0.621 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 197/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.65
+  Ankle movement: 0.0150
+  → Pose: Standing
+  Velocity: vx=-0.0056, vy=0.0114, hip_vy=0.0098
+  LSTM Prediction: Not Fall=0.380, Fall=0.620
+  Pose Filter Applied: 0.620 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 198/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.66
+  Ankle movement: 0.0111
+  → Pose: Standing
+  Velocity: vx=-0.0054, vy=0.0108, hip_vy=0.0099
+  LSTM Prediction: Not Fall=0.361, Fall=0.639
+  Pose Filter Applied: 0.639 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 199/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.67
+  Ankle movement: 0.0090
+  → Pose: Standing
+  Velocity: vx=-0.0043, vy=0.0075, hip_vy=0.0053
+  LSTM Prediction: Not Fall=0.336, Fall=0.664
+  Pose Filter Applied: 0.664 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 200/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.66
+  Ankle movement: 0.0058
+  → Pose: Standing
+  Velocity: vx=-0.0045, vy=0.0101, hip_vy=0.0126
+  LSTM Prediction: Not Fall=0.307, Fall=0.693
+  Pose Filter Applied: 0.693 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 201/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.69
+  Ankle movement: 0.0049
+  → Pose: Standing
+  Velocity: vx=-0.0041, vy=0.0079, hip_vy=0.0071
+  LSTM Prediction: Not Fall=0.294, Fall=0.706
+  Pose Filter Applied: 0.706 → 0.006
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.006)
+
+======================================================================
+Frame 202/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.69
+  Ankle movement: 0.0033
+  → Pose: Standing
+  Velocity: vx=-0.0034, vy=0.0026, hip_vy=0.0024
+  LSTM Prediction: Not Fall=0.323, Fall=0.677
+  Pose Filter Applied: 0.677 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 203/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.69
+  Ankle movement: 0.0081
+  → Pose: Standing
+  Velocity: vx=-0.0024, vy=0.0058, hip_vy=0.0079
+  LSTM Prediction: Not Fall=0.375, Fall=0.625
+  Pose Filter Applied: 0.625 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 204/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.69
+  Ankle movement: 0.0064
+  → Pose: Standing
+  Velocity: vx=0.0009, vy=0.0058, hip_vy=0.0043
+  LSTM Prediction: Not Fall=0.448, Fall=0.552
+  Pose Filter Applied: 0.552 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 205/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.69
+  Ankle movement: 0.0169
+  → Pose: Standing
+  Velocity: vx=0.0041, vy=0.0135, hip_vy=0.0109
+  LSTM Prediction: Not Fall=0.469, Fall=0.531
+  Pose Filter Applied: 0.531 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 206/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.66
+  Ankle movement: 0.0151
+  → Pose: Standing
+  Velocity: vx=0.0059, vy=0.0085, hip_vy=0.0083
+  LSTM Prediction: Not Fall=0.472, Fall=0.528
+  Pose Filter Applied: 0.528 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 207/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.66
+  Ankle movement: 0.0108
+  → Pose: Standing
+  Velocity: vx=0.0060, vy=0.0088, hip_vy=0.0088
+  LSTM Prediction: Not Fall=0.461, Fall=0.539
+  Pose Filter Applied: 0.539 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 208/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.63
+  Ankle movement: 0.0063
+  → Pose: Standing
+  Velocity: vx=0.0072, vy=0.0100, hip_vy=0.0151
+  LSTM Prediction: Not Fall=0.456, Fall=0.544
+  Pose Filter Applied: 0.544 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 209/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.62
+  Ankle movement: 0.0059
+  → Pose: Standing
+  Velocity: vx=0.0100, vy=0.0038, hip_vy=0.0053
+  LSTM Prediction: Not Fall=0.473, Fall=0.527
+  Pose Filter Applied: 0.527 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 210/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.60
+  Ankle movement: 0.0076
+  → Pose: Standing
+  Velocity: vx=0.0096, vy=0.0088, hip_vy=0.0126
+  LSTM Prediction: Not Fall=0.512, Fall=0.488
+  Pose Filter Applied: 0.488 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 211/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.64
+  Ankle movement: 0.0112
+  → Pose: Standing
+  Velocity: vx=0.0109, vy=0.0033, hip_vy=-0.0017
+  LSTM Prediction: Not Fall=0.560, Fall=0.440
+  Pose Filter Applied: 0.440 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 212/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=0.64
+  Ankle movement: 0.0157
+  → Pose: Standing
+  Velocity: vx=0.0128, vy=0.0110, hip_vy=0.0103
+  LSTM Prediction: Not Fall=0.590, Fall=0.410
+  Pose Filter Applied: 0.410 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 213/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.66
+  Ankle movement: 0.0189
+  → Pose: Standing
+  Velocity: vx=0.0118, vy=0.0105, hip_vy=0.0087
+  LSTM Prediction: Not Fall=0.598, Fall=0.402
+  Pose Filter Applied: 0.402 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 214/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=0.67
+  Ankle movement: 0.0139
+  → Pose: Standing
+  Velocity: vx=0.0117, vy=0.0094, hip_vy=0.0080
+  LSTM Prediction: Not Fall=0.601, Fall=0.399
+  Pose Filter Applied: 0.399 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 215/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.64
+  Ankle movement: 0.0153
+  → Pose: Standing
+  Velocity: vx=0.0112, vy=0.0103, hip_vy=0.0158
+  LSTM Prediction: Not Fall=0.590, Fall=0.410
+  Pose Filter Applied: 0.410 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 216/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=0.66
+  Ankle movement: 0.0077
+  → Pose: Standing
+  Velocity: vx=0.0101, vy=0.0040, hip_vy=0.0035
+  LSTM Prediction: Not Fall=0.582, Fall=0.418
+  Pose Filter Applied: 0.418 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 217/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.94
+  ✅ Using detection #0 (conf=0.94)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=0.60
+  Ankle movement: 0.0075
+  → Pose: Standing
+  Velocity: vx=0.0117, vy=0.0088, hip_vy=0.0193
+  LSTM Prediction: Not Fall=0.589, Fall=0.411
+  Pose Filter Applied: 0.411 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 218/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.59
+  Ankle movement: 0.0058
+  → Pose: Sitting
+  Velocity: vx=0.0110, vy=0.0065, hip_vy=0.0113
+  LSTM Prediction: Not Fall=0.589, Fall=0.411
+  Pose Filter Applied: 0.411 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 219/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.63
+  Ankle movement: 0.0137
+  → Pose: Standing
+  Velocity: vx=0.0173, vy=0.0088, hip_vy=0.0069
+  LSTM Prediction: Not Fall=0.585, Fall=0.415
+  Pose Filter Applied: 0.415 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 220/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=0.68
+  Ankle movement: 0.0234
+  → Pose: Walking
+  Velocity: vx=0.0222, vy=0.0077, hip_vy=0.0032
+  LSTM Prediction: Not Fall=0.587, Fall=0.413
+  Pose Filter Applied: 0.413 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 221/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.88
+  ✅ Using detection #0 (conf=0.88)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=0.63
+  Ankle movement: 0.0118
+  → Pose: Standing
+  Velocity: vx=0.0174, vy=0.0045, hip_vy=0.0085
+  LSTM Prediction: Not Fall=0.590, Fall=0.410
+  Pose Filter Applied: 0.410 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 222/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.85
+  ✅ Using detection #0 (conf=0.85)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=0.58
+  Ankle movement: 0.4004
+  → Pose: Sitting
+  Velocity: vx=-0.0574, vy=-0.0994, hip_vy=0.0178
+  LSTM Prediction: Not Fall=0.517, Fall=0.483
+  Pose Filter Applied: 0.483 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 223/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.65
+  Ankle movement: 0.3972
+  → Pose: Walking
+  Velocity: vx=-0.0534, vy=-0.1084, hip_vy=-0.0071
+  LSTM Prediction: Not Fall=0.383, Fall=0.617
+  Pose Filter Applied: 0.617 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 224/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.81
+  ✅ Using detection #0 (conf=0.81)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.64
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0156, vy=0.0107, hip_vy=0.0170
+  LSTM Prediction: Not Fall=0.275, Fall=0.725
+  Pose Filter Applied: 0.725 → 0.025
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.025)
+
+======================================================================
+Frame 225/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.59
+  ✅ Using detection #0 (conf=0.59)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.63
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0137, vy=0.0091, hip_vy=0.0138
+  LSTM Prediction: Not Fall=0.268, Fall=0.732
+  Pose Filter Applied: 0.732 → 0.032
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.032)
+
+======================================================================
+Frame 226/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.87
+  ✅ Using detection #0 (conf=0.87)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.65
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0185, vy=0.0017, hip_vy=0.0014
+  LSTM Prediction: Not Fall=0.365, Fall=0.635
+  Pose Filter Applied: 0.635 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 227/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=0.64
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0202, vy=0.0062, hip_vy=0.0119
+  LSTM Prediction: Not Fall=0.441, Fall=0.559
+  Pose Filter Applied: 0.559 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 228/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.78
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0656, vy=-0.1011, hip_vy=0.0134
+  LSTM Prediction: Not Fall=0.378, Fall=0.622
+  Pose Filter Applied: 0.622 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 229/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.88
+  ✅ Using detection #0 (conf=0.88)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=2.20
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0756, vy=-0.1061, hip_vy=0.0171
+  LSTM Prediction: Not Fall=0.262, Fall=0.738
+  Pose Filter Applied: 0.738 → 0.038
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.038)
+
+======================================================================
+Frame 230/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.78
+  ✅ Using detection #0 (conf=0.78)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=0.82
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.1027, vy=0.1095, hip_vy=-0.0021
+  LSTM Prediction: Not Fall=0.067, Fall=0.933
+  Pose Filter Applied: 0.933 → 0.233
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.233)
+
+======================================================================
+Frame 231/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.86
+  ✅ Using detection #0 (conf=0.86)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=2.34
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0849, vy=-0.0961, hip_vy=0.0217
+  LSTM Prediction: Not Fall=0.018, Fall=0.982
+  Pose Filter Applied: 0.982 → 0.282
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.282)
+
+======================================================================
+Frame 232/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=2.28
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0111, vy=0.0090, hip_vy=0.0298
+  LSTM Prediction: Not Fall=0.011, Fall=0.989
+  Pose Filter Applied: 0.989 → 0.289
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.289)
+
+======================================================================
+Frame 233/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.92, leg/body=2.34
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0073, vy=0.0011, hip_vy=-0.0076
+  LSTM Prediction: Not Fall=0.011, Fall=0.989
+  Pose Filter Applied: 0.989 → 0.289
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.289)
+
+======================================================================
+Frame 234/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=2.28
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0090, vy=0.0074, hip_vy=0.0254
+  LSTM Prediction: Not Fall=0.024, Fall=0.976
+  Pose Filter Applied: 0.976 → 0.276
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.276)
+
+======================================================================
+Frame 235/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=2.24
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0126, vy=0.0095, hip_vy=0.0308
+  LSTM Prediction: Not Fall=0.122, Fall=0.878
+  Pose Filter Applied: 0.878 → 0.178
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.178)
+
+======================================================================
+Frame 236/289
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.86
+    #1: class=0, conf=0.76
+  ✅ Using detection #0 (conf=0.86)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=2.26
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0087, vy=0.0043, hip_vy=0.0096
+  LSTM Prediction: Not Fall=0.441, Fall=0.559
+  Pose Filter Applied: 0.559 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 237/289
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.87
+    #1: class=0, conf=0.72
+  ✅ Using detection #0 (conf=0.87)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.03, leg/body=14.04
+  → Pose: Lying
+  Velocity: vx=-0.0973, vy=-0.0923, hip_vy=-0.4227
+  LSTM Prediction: Not Fall=0.572, Fall=0.428
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.428)
+
+======================================================================
+Frame 238/289
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.91
+    #1: class=0, conf=0.71
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=2.21
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.2159, vy=-0.0950, hip_vy=-0.0003
+  LSTM Prediction: Not Fall=0.642, Fall=0.358
+  Pose Filter Applied: 0.358 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 239/289
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.90
+    #1: class=0, conf=0.65
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=2.18
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0017, vy=-0.0003, hip_vy=0.0015
+  LSTM Prediction: Not Fall=0.721, Fall=0.279
+  Pose Filter Applied: 0.279 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 240/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=2.15
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0033, vy=0.0021, hip_vy=0.0081
+  LSTM Prediction: Not Fall=0.763, Fall=0.237
+  Pose Filter Applied: 0.237 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 241/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=2.15
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0020, vy=-0.0015, hip_vy=-0.0046
+  LSTM Prediction: Not Fall=0.784, Fall=0.216
+  Pose Filter Applied: 0.216 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 242/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=2.13
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0009, vy=0.0011, hip_vy=0.0048
+  LSTM Prediction: Not Fall=0.946, Fall=0.054
+  Pose Filter Applied: 0.054 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 243/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=2.15
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0011, vy=0.0003, hip_vy=-0.0006
+  LSTM Prediction: Not Fall=0.963, Fall=0.037
+  Pose Filter Applied: 0.037 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 244/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=2.21
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0013, vy=-0.0011, hip_vy=-0.0075
+  LSTM Prediction: Not Fall=0.961, Fall=0.039
+  Pose Filter Applied: 0.039 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 245/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=2.24
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0001, vy=-0.0002, hip_vy=-0.0019
+  LSTM Prediction: Not Fall=0.957, Fall=0.043
+  Pose Filter Applied: 0.043 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 246/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.88
+  ✅ Using detection #0 (conf=0.88)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=2.17
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0004, vy=0.0021, hip_vy=0.0107
+  LSTM Prediction: Not Fall=0.956, Fall=0.044
+  Pose Filter Applied: 0.044 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 247/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=2.14
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.0001, vy=-0.0010, hip_vy=-0.0014
+  LSTM Prediction: Not Fall=0.951, Fall=0.049
+  Pose Filter Applied: 0.049 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 248/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=2.21
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0009, vy=-0.0015, hip_vy=-0.0087
+  LSTM Prediction: Not Fall=0.777, Fall=0.223
+  Pose Filter Applied: 0.223 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 249/289
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.90
+    #1: class=0, conf=0.53
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=2.22
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.1065, vy=0.0398, hip_vy=-0.0077
+  LSTM Prediction: Not Fall=0.539, Fall=0.461
+  Pose Filter Applied: 0.461 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 250/289
+======================================================================
+  Detections: 0
+  ❌ Incomplete keypoints: 0/17
+
+======================================================================
+Frame 251/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.70
+  ✅ Using detection #0 (conf=0.70)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.06, leg/body=7.23
+  → Pose: Lying
+  Velocity: vx=0.1023, vy=0.0538, hip_vy=-0.0123
+  LSTM Prediction: Not Fall=0.248, Fall=0.752
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.752)
+
+======================================================================
+Frame 252/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.64
+  ✅ Using detection #0 (conf=0.64)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.34, leg/body=0.00
+  → Pose: Lying
+  Velocity: vx=-0.1028, vy=-0.0984, hip_vy=-0.4482
+  LSTM Prediction: Not Fall=0.217, Fall=0.783
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.783)
+
+======================================================================
+Frame 253/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.69
+  ✅ Using detection #0 (conf=0.69)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=2.26
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=0.1922, vy=0.2035, hip_vy=0.9235
+  LSTM Prediction: Not Fall=0.123, Fall=0.877
+  Pose Filter Applied: 0.877 → 0.177
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.177)
+
+======================================================================
+Frame 254/289
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.61
+    #1: class=0, conf=0.56
+  ✅ Using detection #0 (conf=0.61)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=2.23
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0122, vy=-0.0093, hip_vy=-0.0226
+  LSTM Prediction: Not Fall=0.089, Fall=0.911
+  Pose Filter Applied: 0.911 → 0.211
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.211)
+
+======================================================================
+Frame 255/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.87
+  ✅ Using detection #0 (conf=0.87)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=2.21
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0010, vy=-0.0101, hip_vy=-0.0228
+  LSTM Prediction: Not Fall=0.088, Fall=0.912
+  Pose Filter Applied: 0.912 → 0.212
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.212)
+
+======================================================================
+Frame 256/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.85
+  ✅ Using detection #0 (conf=0.85)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=2.15
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0096, vy=-0.0083, hip_vy=-0.0147
+  LSTM Prediction: Not Fall=0.098, Fall=0.902
+  Pose Filter Applied: 0.902 → 0.202
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.202)
+
+======================================================================
+Frame 257/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.82
+  ✅ Using detection #0 (conf=0.82)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=2.20
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0106, vy=-0.0135, hip_vy=-0.0421
+  LSTM Prediction: Not Fall=0.157, Fall=0.843
+  Pose Filter Applied: 0.843 → 0.143
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.143)
+
+======================================================================
+Frame 258/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=2.23
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0059, vy=-0.0014, hip_vy=-0.0077
+  LSTM Prediction: Not Fall=0.438, Fall=0.562
+  Pose Filter Applied: 0.562 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 259/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.87
+  ✅ Using detection #0 (conf=0.87)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.47
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=0.1638, vy=0.1997, hip_vy=-0.0319
+  LSTM Prediction: Not Fall=0.819, Fall=0.181
+  Pose Filter Applied: 0.181 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 260/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.82
+  ✅ Using detection #0 (conf=0.82)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=2.22
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.2725, vy=-0.2374, hip_vy=0.0293
+  LSTM Prediction: Not Fall=0.878, Fall=0.122
+  Pose Filter Applied: 0.122 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 261/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.88
+  ✅ Using detection #0 (conf=0.88)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.93, leg/body=0.50
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=0.1599, vy=0.2090, hip_vy=-0.0196
+  LSTM Prediction: Not Fall=0.907, Fall=0.093
+  Pose Filter Applied: 0.093 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 262/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.86
+  ✅ Using detection #0 (conf=0.86)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.52
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=-0.0130, vy=-0.0092, hip_vy=-0.0187
+  LSTM Prediction: Not Fall=0.916, Fall=0.084
+  Pose Filter Applied: 0.084 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 263/289
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.79
+    #1: class=0, conf=0.51
+  ✅ Using detection #0 (conf=0.79)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.95, leg/body=0.53
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=0.0597, vy=0.0315, hip_vy=-0.0072
+  LSTM Prediction: Not Fall=0.915, Fall=0.085
+  Pose Filter Applied: 0.085 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 264/289
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.70
+    #1: class=0, conf=0.61
+  ✅ Using detection #0 (conf=0.70)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.50
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=-0.0908, vy=-0.0406, hip_vy=-0.0039
+  LSTM Prediction: Not Fall=0.914, Fall=0.086
+  Pose Filter Applied: 0.086 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 265/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.86
+  ✅ Using detection #0 (conf=0.86)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.97, leg/body=0.55
+  Ankle movement: 0.0000
+  → Pose: Sitting
+  Velocity: vx=-0.0080, vy=-0.0180, hip_vy=-0.0353
+  LSTM Prediction: Not Fall=0.917, Fall=0.083
+  Pose Filter Applied: 0.083 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 266/289
+======================================================================
+  Detections: 2
+    #0: class=0, conf=0.59
+    #1: class=0, conf=0.58
+  ✅ Using detection #0 (conf=0.59)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.63
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0093, vy=-0.0132, hip_vy=-0.0307
+  LSTM Prediction: Not Fall=0.927, Fall=0.073
+  Pose Filter Applied: 0.073 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 267/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.62
+  Ankle movement: 0.0000
+  → Pose: Standing
+  Velocity: vx=-0.0102, vy=-0.0004, hip_vy=0.0010
+  LSTM Prediction: Not Fall=0.939, Fall=0.061
+  Pose Filter Applied: 0.061 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 268/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=0.58
+  Ankle movement: 0.8088
+  → Pose: Sitting
+  Velocity: vx=0.1373, vy=0.2107, hip_vy=-0.0045
+  LSTM Prediction: Not Fall=0.936, Fall=0.064
+  Pose Filter Applied: 0.064 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 269/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.58
+  Ankle movement: 0.0082
+  → Pose: Sitting
+  Velocity: vx=-0.0070, vy=-0.0080, hip_vy=-0.0117
+  LSTM Prediction: Not Fall=0.926, Fall=0.074
+  Pose Filter Applied: 0.074 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 270/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=1.00, leg/body=0.63
+  Ankle movement: 0.0070
+  → Pose: Standing
+  Velocity: vx=-0.0059, vy=-0.0037, hip_vy=-0.0128
+  LSTM Prediction: Not Fall=0.894, Fall=0.106
+  Pose Filter Applied: 0.106 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 271/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.99, leg/body=0.63
+  Ankle movement: 0.0036
+  → Pose: Standing
+  Velocity: vx=0.0621, vy=0.0277, hip_vy=-0.0052
+  LSTM Prediction: Not Fall=0.890, Fall=0.110
+  Pose Filter Applied: 0.110 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 272/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.91
+  ✅ Using detection #0 (conf=0.91)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.98, leg/body=0.63
+  Ankle movement: 0.0074
+  → Pose: Standing
+  Velocity: vx=-0.0057, vy=-0.0103, hip_vy=-0.0096
+  LSTM Prediction: Not Fall=0.786, Fall=0.214
+  Pose Filter Applied: 0.214 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 273/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.62
+  Ankle movement: 0.0116
+  → Pose: Standing
+  Velocity: vx=-0.0051, vy=-0.0079, hip_vy=-0.0101
+  LSTM Prediction: Not Fall=0.978, Fall=0.022
+  Pose Filter Applied: 0.022 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 274/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.88
+  ✅ Using detection #0 (conf=0.88)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.96, leg/body=0.65
+  Ankle movement: 0.0059
+  → Pose: Standing
+  Velocity: vx=-0.0013, vy=-0.0068, hip_vy=-0.0107
+  LSTM Prediction: Not Fall=0.978, Fall=0.022
+  Pose Filter Applied: 0.022 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 275/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.89
+  ✅ Using detection #0 (conf=0.89)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.94, leg/body=0.66
+  Ankle movement: 0.0066
+  → Pose: Standing
+  Velocity: vx=-0.0007, vy=-0.0025, hip_vy=-0.0025
+  LSTM Prediction: Not Fall=0.979, Fall=0.021
+  Pose Filter Applied: 0.021 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 276/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.65
+  Ankle movement: 0.0072
+  → Pose: Standing
+  Velocity: vx=-0.0014, vy=-0.0032, hip_vy=-0.0005
+  LSTM Prediction: Not Fall=0.979, Fall=0.021
+  Pose Filter Applied: 0.021 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 277/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.63
+  Ankle movement: 0.0028
+  → Pose: Standing
+  Velocity: vx=-0.0004, vy=-0.0024, hip_vy=-0.0010
+  LSTM Prediction: Not Fall=0.980, Fall=0.020
+  Pose Filter Applied: 0.020 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 278/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.89, leg/body=0.62
+  Ankle movement: 0.0040
+  → Pose: Standing
+  Velocity: vx=0.0001, vy=0.0002, hip_vy=-0.0002
+  LSTM Prediction: Not Fall=0.979, Fall=0.021
+  Pose Filter Applied: 0.021 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 279/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.88, leg/body=0.60
+  Ankle movement: 0.0102
+  → Pose: Standing
+  Velocity: vx=0.0017, vy=-0.0045, hip_vy=0.0005
+  LSTM Prediction: Not Fall=0.766, Fall=0.234
+  Pose Filter Applied: 0.234 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 280/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.90
+  ✅ Using detection #0 (conf=0.90)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.88, leg/body=0.61
+  Ankle movement: 0.0055
+  → Pose: Standing
+  Velocity: vx=0.0019, vy=-0.0055, hip_vy=-0.0066
+  LSTM Prediction: Not Fall=0.494, Fall=0.506
+  Pose Filter Applied: 0.506 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 281/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.89, leg/body=0.60
+  Ankle movement: 0.0024
+  → Pose: Standing
+  Velocity: vx=0.0024, vy=-0.0036, hip_vy=-0.0034
+  LSTM Prediction: Not Fall=0.366, Fall=0.634
+  Pose Filter Applied: 0.634 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 282/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.89, leg/body=0.61
+  Ankle movement: 0.0058
+  → Pose: Standing
+  Velocity: vx=-0.0005, vy=-0.0040, hip_vy=-0.0042
+  LSTM Prediction: Not Fall=0.384, Fall=0.616
+  Pose Filter Applied: 0.616 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 283/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.89, leg/body=0.61
+  Ankle movement: 0.0044
+  → Pose: Standing
+  Velocity: vx=0.0007, vy=-0.0021, hip_vy=-0.0013
+  LSTM Prediction: Not Fall=0.408, Fall=0.592
+  Pose Filter Applied: 0.592 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 284/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.60
+  Ankle movement: 0.0055
+  → Pose: Sitting
+  Velocity: vx=0.0004, vy=-0.0030, hip_vy=-0.0032
+  LSTM Prediction: Not Fall=0.593, Fall=0.407
+  Pose Filter Applied: 0.407 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 285/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.60
+  Ankle movement: 0.0024
+  → Pose: Standing
+  Velocity: vx=-0.0012, vy=-0.0019, hip_vy=-0.0027
+  LSTM Prediction: Not Fall=0.571, Fall=0.429
+  Pose Filter Applied: 0.429 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 286/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.61
+  Ankle movement: 0.0019
+  → Pose: Standing
+  Velocity: vx=-0.0025, vy=-0.0014, hip_vy=-0.0032
+  LSTM Prediction: Not Fall=0.547, Fall=0.453
+  Pose Filter Applied: 0.453 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 287/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.93
+  ✅ Using detection #0 (conf=0.93)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.61
+  Ankle movement: 0.0042
+  → Pose: Standing
+  Velocity: vx=-0.0046, vy=0.0001, hip_vy=-0.0016
+  LSTM Prediction: Not Fall=0.537, Fall=0.463
+  Pose Filter Applied: 0.463 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 288/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.91, leg/body=0.65
+  Ankle movement: 0.0020
+  → Pose: Standing
+  Velocity: vx=-0.0056, vy=-0.0021, hip_vy=-0.0077
+  LSTM Prediction: Not Fall=0.591, Fall=0.409
+  Pose Filter Applied: 0.409 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+======================================================================
+Frame 289/289
+======================================================================
+  Detections: 1
+    #0: class=0, conf=0.92
+  ✅ Using detection #0 (conf=0.92)
+  ✅ Keypoints extracted: (9, 2)
+  Pose ratios: body_vertical=0.90, leg/body=0.68
+  Ankle movement: 0.0028
+  → Pose: Standing
+  Velocity: vx=-0.0061, vy=0.0012, hip_vy=-0.0023
+  LSTM Prediction: Not Fall=0.590, Fall=0.410
+  Pose Filter Applied: 0.410 → 0.000
+  Smoothing: 0/5 (need 4) → Normal
+
+🎯 RESULT: 🟢 Normal (conf=0.000)
+
+✅ Debug finished
