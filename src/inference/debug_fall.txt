@@ -1,1 +1,0 @@
-/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/tawinfaksakorn/Documents/Falling-Detection/src/inference/src/inference/debug_video.py': [Errno 2] No such file or directory

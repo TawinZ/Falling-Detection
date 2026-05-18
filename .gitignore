@@ -5,8 +5,11 @@ data/processed/*
 *.zip
 *.avi
 *.mp4
+*.MOV
+*.mov
 models/*.h5
 models/*.keras
+models/*.pkl
 __pycache__/
 *.pyc
 venv/
@@ -15,3 +18,8 @@ env/
 .DS_Store
 logs/
 *.log
+pipeline_run.log
+.env
+screenshots/*
+pose_landmarker_full.task
+yolov8n-pose.pt

@@ -1,7 +1,3 @@
-"""
-Fall Detection from Video File with Screenshot Capture
-"""
-
 import cv2
 import numpy as np
 from collections import deque
@@ -384,3 +380,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
